@@ -9,6 +9,10 @@
       h1 Introducción
     
     p.mb-4 frase de ensayo,,,,,,,,,,,,,,,,,,,,,,,,,,
+    p.mb-4 frase de ensayo,,,,,,,,,,,,,,,,,,,,,,,,,,
+    p.mb-4 frase de ensayo,,,,,,,,,,,,,,,,,,,,,,,,,,
+    p.mb-4 frase de ensayo,,,,,,,,,,,,,,,,,,,,,,,,,,
+    
     
     .row.justify-content-center.align-items-center           
       .col-lg-12
