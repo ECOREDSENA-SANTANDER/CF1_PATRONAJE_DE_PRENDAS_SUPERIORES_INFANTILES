@@ -8,6 +8,8 @@
           i.fas.fa-info
       h1 Introducción
     
+    p.mb-4 frase de ensayo,,,,,,,,,,,,,,,,,,,,,,,,,,
+    
     .row.justify-content-center.align-items-center           
       .col-lg-12
         figure
