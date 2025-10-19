@@ -5,7 +5,18 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Tema 3
+      h1 Moda
+
+
+    separador
+    #t_2_1.titulo-segundo.mb-5
+      h2 3.1 Universos del vestuario
+
+    separador
+    #t_2_1.titulo-segundo.mb-5
+      h2 3.2 Tipología de prendas infantiles para niña
+
+
 
 </template>
 

@@ -7,6 +7,11 @@
         span 4
       h1 Tema 4
 
+    separador
+    #t_2_1.titulo-segundo.mb-5
+      h2 4.1 Aprovechamiento
+
+
 
 </template>
 

@@ -36,12 +36,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Estructura del cuerpo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'División del cuerpo',
             hash: 't_1_1',
           },
         ],
@@ -50,14 +50,89 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Análisis de medidas, clasificación y cuadros de tallas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto y tipos de medidas',
+            hash: 't_1_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Proporción versus canon',
+            hash: 't_1_1',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Proporciones corporales',
+            hash: 't_1_1',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Medidas deducidas',
+            hash: 't_1_1',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Normatividad',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Moda',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Universos del vestuario',
+            hash: 't_1_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tipología de prendas infantiles para niña',
+            hash: 't_1_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Tema 4',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Aprovechamiento',
+            hash: 't_1_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Tema 5',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Tipos de patronaje y líneas',
+            hash: 't_1_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Patrón básico superior infantil',
+            hash: 't_1_1',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Patrón básico de manga',
+            hash: 't_1_1',
+          },
+        ],
       },
     ],
     subMenu: [
