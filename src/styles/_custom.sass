@@ -97,6 +97,7 @@ figcaption
 .ap2
   background-color: #AAEDDA
 
+
 //Cajas con imagen a la izquierda
 .bloque-texto-g.color-primario
   background-color: #FA87B8
@@ -134,9 +135,9 @@ figcaption
     background-color: #FFD93D
   
 //clases para imagen con figura xx y fuente xx
-.bg2        
+.ap3        
   background-color: #FFEDF5
-  border-radius: 20px
+  border-radius: 20px //borde redondeado
 .enl
   word-wrap: break-word
   overflow-wrap: break-word
@@ -154,3 +155,60 @@ figcaption
 .img-a
   display: block
   margin: auto
+
+//Caja con persona con la cabeza por fuera
+.bloque-texto-a.color-acento-contenido
+  background-color: #FFEDF5
+.bloque-texto-a.color-acento-contenido:before
+  background-color: #3FC49E
+.cs  //cabeza salida
+  margin-top: -15.2%
+  position: absolute
+.apw  //caja blanca
+  background-color: white
+
+
+.ap4        
+  background-color: #FFEDF5
+
+.ap5        
+  background-color: #AAEDDA
+  border-radius: 10px //borde redondeado
+
+.ap6 
+  background-color: #FAC6C0
+  border-radius: 10px //borde redondeado
+
+
+
+.fa-circle-chevron-right
+    content: var(--fa)
+    color: #0B8864
+
+.fa-circle-chevron-right.r1
+    content: var(--fa)
+    color: #C65634
+
+
+.acordion__accion__btn--b
+  background-color: #FFD93D
+  transition: all 0.3s ease-out
+  border: #FFD93D
+.acordion__activo
+  background-color: #AAEDDA!important
+  transition: all 0.3s ease-out
+.tarjeta--grey
+    border-radius: 20px
+    background-color: #FFEDF5
+.acordion.press .acordion__activo .acordion__accion__btn--b
+  background-color: #C65634
+  color: white
+
+
+.tarjeta.color-primario
+  @media (max-width: 767px)
+    border-radius: 20px
+.tarjeta.color-secundario
+  background-color: #0B8864
+  @media (max-width: 767px)
+    border-radius: 20px

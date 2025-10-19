@@ -85,8 +85,8 @@
         .titulo-sexto.mb-4
           h5 Figura 1.
           | Modelos corporales femenino, masculino e infantil con proporciones por segmentos
-        .bg2.mb-2.p-4
-          img.img-t.img-a(src='@/assets/curso/tema1/10.png', alt=' ')
+        .ap3.mb-2.p-4
+          img.img-t.img-a(src='@/assets/curso/tema1/10.png', alt='Se presentan tres esquemas anatómicos (femenino, masculino e infantil), en posición frontal y de pie. Cada modelo está acompañado de medidas que indican las proporciones corporales por segmentos, abarcando cabeza, tronco, extremidades y referencias específicas como altura total, ancho de hombros, largo de brazos y proporción de piernas. El propósito es evidenciar las diferencias en la distribución y relación de las dimensiones corporales entre los tres tipos de cuerpo. ')
         figcaption.mb-5.enl Fuente: https://www.timetoast.com/timelines/pasos-para-realizar-una-adecuada-evaluacion-nutricional-antropometrica
 
 
@@ -103,10 +103,9 @@
         .titulo-sexto.mb-4
           h5 Figura 2.
           | Cuerpo infantil de niña, óseo y muscular
-        .bg2.mb-2.p-lg-5.p-4
-          img.img-t.img-a(src='@/assets/curso/tema1/12.png', alt=' ')
+        .ap3.mb-2.p-lg-5.p-4
+          img.img-t.img-a(src='@/assets/curso/tema1/12.png', alt='Ilustración comparativa de una niña en tres representaciones: figura externa, estructura ósea y sistema muscular, destacando las partes principales del cuerpo humano en cada nivel.')
         
-
 
 
     separador
@@ -114,12 +113,66 @@
       h2 1.1 División del cuerpo
 
 
+    .row.justify-content-center.align-items-center.mb-4.mt-5(data-aos="fade-left")
+      .col-lg-12
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5
+          .row.align-items-center.justify-content-center
+            .col-lg-8.mb-0
+              .apw.p-4
+                p.mb-0.mx-lg-4(data-aos="fade-left") Con base en los conceptos previamente desarrollados, resulta fundamental comprender la manera en que se organiza la división del cuerpo en relación con sus diferentes miembros; este conocimiento permite establecer con precisión la clasificación de las prendas superiores e inferiores, facilitando su estudio y aplicación en el ámbito del diseño y la confección.
+            .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
+              figure
+                img.mb-lg-0.img-a.img-t.cs(data-aos="fade-left")(src='@/assets/curso/tema1/13.png', alt='')
 
 
+    p.mb-5 Teniendo en cuenta lo anterior, las prendas de vestir se distribuyen a partir de los miembros superiores y miembros inferiores, lo cual permite establecer una clasificación funcional que facilita tanto su diseño como su confección. En los miembros superiores se incluyen prendas como blusas, camisas, chaquetas y abrigos, mientras que en los miembros inferiores se agrupan faldas, pantalones y #[em shorts]. 
 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        .ap4.mb-4.p-4
+          img.img-t.img-a(src='@/assets/curso/tema1/14.png', alt=' ')
+      .col-lg-6
+        p.mb-4 Esta organización no solo responde a criterios anatómicos, sino también a la coherencia en la construcción de patrones, al control de medidas y a la definición de tipologías de vestuario adaptadas a distintos contextos de uso.
+        .ap5.mb-5.p-4
+          h4.mb-4 Prendas superiores
+          ul.lista-ul
+            li.d-flex.mb-2
+              i.fas.fa-circle-chevron-right
+              p.mb-0 #[b Hombros y cuello:] camisas, camisetas, blusas, chaquetas.
+            li.d-flex.mb-2
+              i.fas.fa-circle-chevron-right
+              p.mb-0 #[b Busto y torso:] ropa interior, se contempla las de hombros y cuello, pero aquí radica en cómo se ajusta a esta área.
+            li.d-flex.mb-2
+              i.fas.fa-circle-chevron-right
+              p.mb-0 #[b Cintura:] punto focal en relación con el ajuste de prendas anteriores y similares. 
+        .ap6.mb-4.p-4
+          h4.mb-4 Prendas inferiores
+          ul.lista-ul
+            li.d-flex.mb-2
+              i.fas.fa-circle-chevron-right.r1
+              p.mb-0 #[b Caderas y glúteos:] descripción de prendas: bermudas, #[em leggins, shorts,] pantalones, faldas.
+            li.d-flex.mb-2
+              i.fas.fa-circle-chevron-right.r1
+              p.mb-0 #[b Muslos y piernas:] ajuste y prolongación de las prendas que cubren caderas y glúteos, ya que se extienden hacia muslos y piernas.
+            li.d-flex.mb-2
+              i.fas.fa-circle-chevron-right.r1
+              p.mb-0 #[b Tobillos y pies:] complemento de las prendas inferiores en la parte baja del cuerpo; incluye medias o accesorios que cubren tobillos y pies.
+           
 
-
+    .tarjeta.color-primario.p-4.mb-0(data-aos="fade-right")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema1/15.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h4.mb-2 Estructura del cuerpo
+              p.mb-0 Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace:
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=9UZwjgAYxMY" target="_blank")
+                span Ir al sitio
+                i.fas.fa-file-video
 
 
 </template>
