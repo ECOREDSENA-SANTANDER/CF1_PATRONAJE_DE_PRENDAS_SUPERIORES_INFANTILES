@@ -164,6 +164,9 @@ figcaption
 .cs  //cabeza salida
   margin-top: -15.2%
   position: absolute
+.cs1  //cabeza salida
+  margin-top: -12%
+  position: absolute
 .apw  //caja blanca
   background-color: white
 
@@ -258,3 +261,51 @@ figcaption
   background-position: center
   
 
+.p-5.fi
+  padding: 2.3rem !important
+
+
+  //Tarjetas desplegables con boton
+.cont_5_1, .cont_5_1 *
+  position: relative
+.cont_5_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 70%
+  top: 15%
+  bottom: 15%
+  left: -15%
+  background-size: 100% 100%
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 0px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #AAEDDA!important
+  .rot
+    transform: rotate(180deg)
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: black !important
+.colt
+  background-color: #AAEDDA
+.mtop
+  margin-top: -18px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    margin-top: -25px
+@media (max-width: 767px)
+  .txp
+    font-size: 0.75em !important
+@media (min-width: 768px) and (max-width: 1024px)
+  .txp
+    font-size: 0.85em

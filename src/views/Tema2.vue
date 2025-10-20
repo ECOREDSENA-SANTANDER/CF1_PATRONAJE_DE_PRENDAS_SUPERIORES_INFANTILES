@@ -174,8 +174,60 @@
         p.mb-0 Debido a su alta rotación y demanda constante, especialmente en instituciones hospitalarias y servicios de urgencias, es indispensable que los proveedores aseguren disponibilidad permanente, entregas oportunas y el cumplimiento de normas de calidad e higiene.
 
           
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        img(src='@/assets/curso/tema2/13.png', alt=' ')
+      .col-lg-8
+        p.mb-4 Gracias a este proceso de deducción es posible complementar el sistema de patronaje y garantizar que las prendas conserven la proporcionalidad adecuada; en este análisis de medidas en patronaje, resulta indispensable traducir y organizar las dimensiones corporales obtenidas del cuerpo humano, puesto que estas guían todo el proceso de construcción de moldes. Un sistema de medidas claro y preciso permite clasificar los datos recolectados y aplicarlos de manera coherente en la elaboración de patrones, asegurando así uniformidad y exactitud.
+        p.mb-0 El sistema de medidas en el área de patronaje se entiende como el conjunto de técnicas y procedimientos empleados para registrar y aplicar las medidas corporales en el diseño de prendas de vestir. La calidad de este proceso de medición resulta decisiva, pues de ella depende el ajuste, la comodidad, la proporcionalidad y la estética de la prenda terminada.
 
 
+    p.mb-4 En términos generales, los sistemas de medidas se clasifican en:
+
+
+    .cont_5_1.mt-4(data-aos="fade-left").mb-5
+      .row.justify-content-center
+        .col-lg-6.mb-4.mb-lg-0.col-md-10(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/tema2/16.jpg' alt="")
+            .crd_hover_txt--body.colt
+              .row.justify-content-center.align-items-center.mb-0
+                .col-lg-2
+                  img.img-t.img-a.mtop.rot(src='@/assets/curso/tema2/up.png' alt="")
+                .col-lg-10
+                  h5.mb-3.txp Sistema inglés
+              p.mb-0.txp Utiliza la pulgada como unidad básica de medida. Es aplicado principalmente en países como Estados Unidos, Inglaterra y Australia.
+        .col-lg-6.mb-4.mb-lg-0.col-md-10(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/tema2/17.jpg' alt="")
+            .crd_hover_txt--body.colt
+              .row.justify-content-center.align-items-center.mb-0
+                .col-lg-2
+                  img.img-t.img-a.mtop.rot(src='@/assets/curso/tema2/up.png' alt="")
+                .col-lg-10
+                  h5.mb-3.txp Sistema internacional o métrico decimal
+              p.mb-0.txp Emplea el metro como unidad básica de medida. Es el sistema más difundido y utilizado en la mayoría de los países latinoamericanos y europeos.
+
+
+
+
+    .tarjeta.color-primario.p-4.mb-0(data-aos="fade-right")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema2/14.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h4.mb-2 Análisis de cuadro de tallas
+              p.mb-0 Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente documento:
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=9UZwjgAYxMY" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
 
     separador
@@ -183,6 +235,16 @@
       h2 2.5 Normatividad
   
 
+    .row.justify-content-center.align-items-center.mb-4.mt-5(data-aos="fade-left")
+      .col-lg-12
+        .bloque-texto-a.color-acento-contenido.p-5.fi
+          .row.align-items-center.justify-content-center
+            .col-lg-8.mb-0
+              .apw.p-4
+                p.mb-0(data-aos="fade-left") En el ámbito internacional y nacional existen lineamientos técnicos que regulan la toma de medidas corporales y la estandarización de tallas, con el propósito de garantizar uniformidad en los procesos de diseño, confección y comercialización de prendas de vestir. Entre las principales normas se destacan:
+            .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
+              figure
+                img.mb-lg-0.img-a.img-t.cs1(data-aos="fade-left")(src='@/assets/curso/tema2/15.png', alt='')
 
 
 
