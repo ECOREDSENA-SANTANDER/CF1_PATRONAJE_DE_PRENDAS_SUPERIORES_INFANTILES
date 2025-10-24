@@ -89,6 +89,7 @@ figcaption
     border-radius: 0px
   @media only screen and (min-width: 768px) and (max-width: 1023px)
     border-radius: 0px
+  
 
 
 .ap1
@@ -115,6 +116,50 @@ figcaption
 
 .bloque-texto-g.color-primario3
   background-color: #5AB5FF
+
+
+//bloque con esquina redondeada 
+.bloque-texto-g.color-primario4
+  background-color: #FA87B8
+  border-radius: 0px 10px 200px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
+  .bloque-texto-g__texto 
+    position: relative
+    width: 75%
+    border-radius: 150px 10px 170px 150px
+    @media only screen and (max-width: 767px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    
+.bloque-texto-g.color-acento
+  background-color: #FA6D5F
+  border-radius: 0px 10px 200px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
+  .bloque-texto-g__texto 
+    position: relative
+    width: 75%
+    border-radius: 150px 10px 170px 150px
+    @media only screen and (max-width: 767px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+
+
 .tarjetaf
   background: url('../assets/curso/tema1/fondo1.png')
   background-size: cover
@@ -167,9 +212,16 @@ figcaption
 .cs1  //cabeza salida
   margin-top: -12%
   position: absolute
+
 .apw  //caja blanca
   background-color: white
 
+
+
+.apw1  //caja blanca
+  background-color: white
+  width: fit-content  //se ajusta el contenido
+  margin: auto // centrar el contenido
 
 .ap4        
   background-color: #FFEDF5
@@ -185,7 +237,33 @@ figcaption
 .ap7
   background-color: #AAEDDA
 
+.ap8        
+  background-color: #FFEDF5
+  border-radius: 20px //borde redondeado y cambia de color al pasar encima
+  &:hover
+    background-color: #AAEDDA
 
+
+.ap13
+  background-color: #D4F6EC
+  border-radius: 14px
+
+.ap14
+  background-color: #FFEDF5
+  border-radius: 14px
+
+
+.ap15
+  background-color: #F3F9FF
+
+
+.ap16
+  background-color: #97E0CB
+  border-radius: 14px //borde redondeado
+
+.ap17      
+  background-color: #D4F6EC
+  border-radius: 14px //borde redondeado
 
 .fa-circle-chevron-right
     content: var(--fa)
@@ -195,6 +273,9 @@ figcaption
     content: var(--fa)
     color: #C65634
 
+.fa-circle-chevron-right.r2
+    content: var(--fa)
+    color: #D84483
 
 .acordion__accion__btn--b
   background-color: #FFD93D
@@ -223,7 +304,7 @@ figcaption
   //Titulo palito de color y sombreado
 .subti
   margin-bottom: 0px
-  border-left: 11px solid  #C65634 !important
+  border-left: 8px solid  #C65634 !important
   padding: 34px 0px 15px 0px
   border-radius: 20px
   @media only screen and (max-width: 767px)
@@ -253,6 +334,8 @@ figcaption
 .cajon-b.color-primario:before 
     background-color: #FAC6C0
 
+.cajon-b.color-primario.te5:before 
+    background-color: #AAEDDA
 
 .fondo1
   background: url('../assets/curso/tema2/fondo1.png')
@@ -309,3 +392,199 @@ figcaption
 @media (min-width: 768px) and (max-width: 1024px)
   .txp
     font-size: 0.85em
+
+
+
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #FFD93D
+  color: black
+.color-a
+  background-color: #AAEDDA
+
+
+.fas.fa-star
+  color: #FF8C80
+
+
+.fas.fa-leaf:before 
+  content: url('../assets/curso/tema4/ico.png')
+ 
+
+
+.sob1
+  margin-left: -15%
+  margin-bottom: -24px
+  z-index: 2
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 9rem
+  & > *
+    position: relative
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 50px)
+    height: 100%
+    background-color: #AAEDDA
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.crd--first, .crd--last
+  &::before
+    background-color: #FFEDF5 !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+
+.br2
+  border-bottom: 8px solid #FA6D5F
+  width: 50px
+
+.fondot4
+  background: url('../assets/curso/tema4/fondot4.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: cover
+  margin-inline: -3rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+.tarjeta--grisr
+    background-color: white
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+    background-color: #FFD93D
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+    border-color: #FF8C80
+    background-color: #FF8C80
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+    background-color: #FF8C80
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+    background-color: #FF8C80
+
+
+.tabla-a thead
+    border-top: 6px solid #FF8C80
+    color: black
+    background-color: #FFEDF5
+.tabla-a th
+    border-color: #FFEDF5
+.tab1
+  table
+    table-layout: auto
+    width: 100%
+    th:nth-child(1)
+      width: 18%
+    th:nth-child(2)
+      width: 37%
+    th:nth-child(3)
+      width: 45%
+ 
+.tabla-a.tab2 table
+  min-width: 300px !important
+
+
+
+
+.tab3
+  table
+    table-layout: auto
+    width: 100%
+    th:nth-child(1)
+      width: 18%
+    th:nth-child(2)
+      width: 15%
+    th:nth-child(3)
+      width: 30%
+    th:nth-child(4)
+      width: 37%
+ 
+.tab4
+  table
+    table-layout: auto
+    width: 100%
+    th:nth-child(1)
+      width: 17%
+    th:nth-child(2)
+      width: 13%
+    th:nth-child(3)
+      width: 30%
+    th:nth-child(4)
+      width: 40%
+ 
+.left
+  text-align: left
+ 
+.tab5
+  table
+    table-layout: auto
+    width: 100%
+    th:nth-child(1)
+      width: 19%
+    th:nth-child(2)
+      width: 27%
+    th:nth-child(3)
+      width: 27%
+    th:nth-child(4)
+      width: 27%
+   
+
+ 
+.ap10
+  background: url('../assets/curso/tema3/ap10.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+ 
+ 
+.tarjeta--azull
+  background-color: #F3F9FF
+  border-radius: 20px
+.tarjeta.color-acento-botones
+    background-color: #F3F9FF
+.ap12
+  background-color: #AAEDDA
+  border-radius: 10px
+.ap11
+  background-color: #AAEDDA
+  border-radius: 10px
+ 
+
+.fa-chevron-right 
+  content: url('../assets/curso/tema3/der.png')
+.fa-chevron-left 
+  content: url('../assets/curso/tema3/izq.png')
+
+@media (max-width: 768px) 
+    .slyder-a__bullets__item 
+        width: 12px
+        height: 12px
+        margin: 0px 1px
+@media (max-width: 768px)  
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 45px
+    height: 45px
+
+
+.fondo5
+  background: url('../assets/curso/tema5/fondo5.png')
+  background-size: 100% 90%
+  background-repeat: no-repeat
+  background-position: cover
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem

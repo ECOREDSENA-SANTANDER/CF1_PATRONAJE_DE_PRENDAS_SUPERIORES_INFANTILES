@@ -8,7 +8,7 @@
       h1 Análisis de medidas, clasificación y cuadros de tallas
 
 
-    .row.justify-content-center.align-items-center.mb-4.mt-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-4.mt-0(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5
           .row.align-items-center.justify-content-center
@@ -35,7 +35,7 @@
         p.mb-0 Estas deben contemplar los volúmenes y las protuberancias naturales del cuerpo, y se clasifican en tres grandes grupos:
 
 
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start.mb-0
         .col-lg-7
           AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
             .row.align-items-center(titulo="Largos")
@@ -118,12 +118,12 @@
 
 
     .ap7.mb-5
-        .row.justify-content-center.align-items-center
-          .col-lg-5.col-md-8.col-12.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/tema2/8.png', alt='')
-          .col-lg-7(data-aos="fade-left")
-            .p-4
-              p.mb-4(data-aos="fade-left") La proporción corporal alude a la relación matemática y armoniosa entre las distintas partes del cuerpo humano (Esparza, 1993). Esta relación se mantiene a lo largo de todas las etapas del desarrollo humano, desde el nacimiento hasta la vejez, y constituye la base para lograr patrones equilibrados y prendas con un ajuste adecuado.
-              p.mb-0(data-aos="fade-left") En el campo del patronaje y la confección, el estudio de las proporciones no solo permite obtener un equilibrio estético, sino también garantizar la funcionalidad, comodidad y ergonomía de las prendas. Dichas proporciones se convierten en un referente técnico para diseñadores, modelistas y confeccionistas.
+      .row.justify-content-center.align-items-center
+        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/tema2/8.png', alt='')
+        .col-lg-7(data-aos="fade-left")
+          .p-4
+            p.mb-4(data-aos="fade-left") La proporción corporal alude a la relación matemática y armoniosa entre las distintas partes del cuerpo humano (Esparza, 1993). Esta relación se mantiene a lo largo de todas las etapas del desarrollo humano, desde el nacimiento hasta la vejez, y constituye la base para lograr patrones equilibrados y prendas con un ajuste adecuado.
+            p.mb-0(data-aos="fade-left") En el campo del patronaje y la confección, el estudio de las proporciones no solo permite obtener un equilibrio estético, sino también garantizar la funcionalidad, comodidad y ergonomía de las prendas. Dichas proporciones se convierten en un referente técnico para diseñadores, modelistas y confeccionistas.
       
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
@@ -148,19 +148,20 @@
 
 
 
-    .row.fondo1.justify-content-center.align-items-center.p-5.mb-0(data-aos="fade-down")
-      .col-lg-12.px-lg-5.px-4.mb-0
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-12
+        .ap10.p-5
         
-        .ap7.mt-4.mb-4
-          .row.justify-content-center.align-items-center
-            .col-lg-8(data-aos="fade-left")
-              .p-4
-                .row.justify-content-center.align-items-center.mb-0.mx-4
-                  .col-lg-2
-                    img(src="@/assets/curso/tema2/11.svg")
-                  .col-lg-10  
-                    p.mb-0.mx-lg-4(data-aos="fade-left") En Colombia, la metodología más común consiste en expresarlas en centímetros o pulgadas.
-            .col-lg-4.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right"): img(src='@/assets/curso/tema2/10.png', alt='')
+          .ap7
+            .row.justify-content-center.align-items-center
+              .col-lg-8(data-aos="fade-left")
+                .p-4
+                  .row.justify-content-center.align-items-center.mb-0.mx-4
+                    .col-lg-2
+                      img(src="@/assets/curso/tema2/11.svg")
+                    .col-lg-10  
+                      p.mb-0.mx-lg-4(data-aos="fade-left") En Colombia, la metodología más común consiste en expresarlas en centímetros o pulgadas.
+              .col-lg-4.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right"): img(src='@/assets/curso/tema2/10.png', alt='')
 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario3.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-left")
@@ -225,7 +226,7 @@
               h4.mb-2 Análisis de cuadro de tallas
               p.mb-0 Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente documento:
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=9UZwjgAYxMY" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Analisis_de_cuadro_de_tallas.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -235,7 +236,7 @@
       h2 2.5 Normatividad
   
 
-    .row.justify-content-center.align-items-center.mb-4.mt-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5.mt-5(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-a.color-acento-contenido.p-5.fi
           .row.align-items-center.justify-content-center
@@ -247,6 +248,39 @@
                 img.mb-lg-0.img-a.img-t.cs1(data-aos="fade-left")(src='@/assets/curso/tema2/15.png', alt='')
 
 
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-12
+        .row.justify-content-center.align-items-end
+          .col-lg-9(data-aos="fade-right").ps-lg-0
+            .crd.crd--avatarHorizontal.crd--first.py-3
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema2/19.svg", alt="alt")
+                .col
+                  h4.mb-3 Cultivos anuales
+                  p Completan su ciclo de vida desde la siembra hasta la cosecha en un solo año.
+                  p Ejemplos: maíz, arroz.
+            .crd.crd--avatarHorizontal.py-3
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema2/20.svg", alt="alt")
+                .col
+                  h4.mb-3 Cultivos bianuales
+                  p Requieren dos años para completar su desarrollo; en el primero crecen y en el segundo florecen y se cosechan.
+                  p Ejemplos: zanahoria, remolacha.
+            .crd.crd--avatarHorizontal.crd--last.py-3
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema2/21.svg", alt="alt")
+                .col
+                  h4.mb-3 Cultivos perennes
+                  p Tienen una vida productiva de varios años y permiten cosechas continuas sin necesidad de replantar cada temporada.
+                  p Ejemplos: frutales, café.
+          .col-lg-4.sob1.d-none.d-lg-block(data-aos="fade-left")
+            img.mb-4(src="@/assets/curso/tema2/18.svg", alt="alt")  
 
 
 

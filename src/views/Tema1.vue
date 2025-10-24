@@ -128,7 +128,7 @@
     p.mb-5 Teniendo en cuenta lo anterior, las prendas de vestir se distribuyen a partir de los miembros superiores y miembros inferiores, lo cual permite establecer una clasificación funcional que facilita tanto su diseño como su confección. En los miembros superiores se incluyen prendas como blusas, camisas, chaquetas y abrigos, mientras que en los miembros inferiores se agrupan faldas, pantalones y #[em shorts]. 
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
         .ap4.mb-4.p-4
           img.img-t.img-a(src='@/assets/curso/tema1/14.png', alt=' ')

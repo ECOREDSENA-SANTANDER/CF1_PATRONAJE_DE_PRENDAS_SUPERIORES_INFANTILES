@@ -11,7 +11,7 @@
     .bloque-texto-a.color-acento-contenido.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
       .row.m-0.align-items-center.justify-content-center
         .col-lg-9.mb-0.mb-lg-0
-          .bloque-texto-a__texto.p-lg-5.p-md-4.p-4.mb-lg-0.mb-4.my-3.my-lg-0
+          .bloque-texto-a__texto.p-lg-4.p-md-4.p-4.mb-lg-0.mb-4.my-3.my-lg-0
             p.mb-4 El diseño de moda infantil integra procesos creativos y técnicos que permiten transformar ideas en prendas adaptadas a las necesidades de las niñas, donde la estética, la comodidad y la funcionalidad se convierten en ejes centrales. Dentro de estos procesos, el patronaje ocupa un papel esencial, pues consiste en trasladar las particularidades de la estructura corporal en crecimiento hacia representaciones bidimensionales que sirven como base para la confección de diferentes tipologías de vestuario.
             p.mb-0 En este contexto, comprender la figura infantil femenina resulta indispensable, ya que posibilita reconocer los cambios propios de las etapas de desarrollo, garantizando patrones que respondan tanto a la ergonomía como al confort y la seguridad que demanda la moda casual para niñas; esta comprensión facilita la adecuada interpretación de diseños y asegura que las prendas se ajusten a las expectativas de uso cotidiano.
 

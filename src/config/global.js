@@ -101,7 +101,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Textiles',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -114,7 +114,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Prepatronaje y patronaje básico infantil',
         desarrolloContenidos: true,
         subMenu: [
           {
