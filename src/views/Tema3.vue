@@ -8,7 +8,7 @@
       h1 Moda
 
 
-    .bloque-texto-g.color-primario4.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
+    .bloque-texto-g.color-primario4.p-4.p-lg-5.p-md-4.mb-lg-5.mb-0(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
       )
@@ -30,7 +30,7 @@
       p.mb-0 Corresponden a agrupaciones de prendas organizadas en categorías que responden a contextos específicos de uso. Cada universo mantiene coherencia interna en cuanto a tipologías, materiales textiles y criterios de aplicación, lo que facilita una clasificación clara y funcional; esta organización del vestuario según la ocasión de uso no solo optimiza la estructuración del producto, sino que también permite definir con mayor precisión el mercado objetivo al cual se dirige.
 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-md-4.mb-0(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4(alt='Clasificación de diferentes tipos de vestuario según su ocasión de uso y proporciona ejemplos de prendas para cada de estos. Los universos de vestuario son; formal, informal, deportiva, ejecutiva, y ceremonial.')
           h5 Tabla 1.
@@ -92,7 +92,7 @@
                 .p-4
                   .row.justify-content-center.align-items-center.mb-0.mx-4
                     .col-lg-2
-                      img.img-t(src="@/assets/curso/tema3/3.png")
+                      img.img-t.d-none.d-lg-block(src="@/assets/curso/tema3/3.png")
                     .col-lg-10.ps-lg-0  
                       p.mb-0(data-aos="fade-left") Ocasión de uso: contempla los posibles escenarios en los que una persona o grupos de personas usan una prenda de acuerdo con el contexto, esto es pactado culturalmente y hace parte de la identidad culturar individual y grupal.
             
@@ -133,8 +133,8 @@
                       p.mb-0 #[em Swimwear - Beachwear]
                       p.mb-0 #[em Sleepwear]
                       p.mb-0 #[em Underwear]
-        figcaption Fuente: SENA, (2025)
-      .col-lg-6
+        figcaption.mb-lg-0.mb-4 Fuente: SENA, (2025)
+      .col-lg-6.col-md-7.col-8
         img(src="@/assets/curso/tema3/4.png")
 
 
@@ -187,9 +187,9 @@
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12
-        .ap10.p-5
+        .ap10.p-lg-5.p-md-4.p-0
           .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
-            .col-lg-5
+            .col-lg-5.mb-lg-0.mb-4
               .titulo-sexto.mb-4(alt='')
                 h5 Figura 6.
                 | Camiseta

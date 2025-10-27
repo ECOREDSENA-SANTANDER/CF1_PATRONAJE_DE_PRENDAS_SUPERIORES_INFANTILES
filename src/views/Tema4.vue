@@ -205,7 +205,7 @@
                       p.mb-0 • Guatas.
                       p.mb-0 • Entretelas.
          
-        figcaption Fuente: SENA, 2020
+        figcaption.mb-4 Fuente: SENA, 2020
  
 
 
@@ -220,7 +220,7 @@
     p.mb-4 A continuación, se presentan los aspectos más relevantes que permiten reconocer y clasificar los diferentes tipos de textiles según sus propiedades físicas y funcionales:
 
 
-    .tarjeta.color-primario.p-4.mb-4(data-aos="fade-right")
+    .tarjeta.color-primario.p-4.mb-0(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema4/3.svg")
@@ -256,7 +256,7 @@
 
     .row.fondot4.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
       .col-lg-12
-        .tarjeta.tarjeta--grisr.ul.p-lg-4.p-3.mb-0(data-aos="fade-right")
+        .tarjeta.tarjeta--grisr.ul.p-lg-4.p-4.mb-0(data-aos="fade-right")
           PasosB.color-acento-botones
             .row.justify-content-center.align-items-center
               .col-lg-6
@@ -295,13 +295,13 @@
                     .titulo-sexto.mb-2
                       h5 Figura 12. 
                       | Fórmula de aprovechamiento
-                    img.img-a.img-t.mb-lg-0.mb-4(src='@/assets/curso/tema4/7.png' alt='Fórmula utilizada para calcular el porcentaje de aprovechamiento de tela. Se obtiene dividiendo el área útil utilizada por los patrones entre el área total del metro de tela, y multiplicando el resultado por 100.') 
+                    img.mb-lg-0.mb-4(src='@/assets/curso/tema4/7.png' alt='Fórmula utilizada para calcular el porcentaje de aprovechamiento de tela. Se obtiene dividiendo el área útil utilizada por los patrones entre el área total del metro de tela, y multiplicando el resultado por 100.') 
                   .col-lg-6
                     p.mb-4 #[b Nota:] tela 1 metro de largo x 1,50 metros de ancho = 1,5 m². Área ocupada por los patrones: 1,15 m².
                     .titulo-sexto.mb-2
                       h5 Figura 13. 
                       | Ejemplo de aplicación
-                    img.img-a.img-t(src='@/assets/curso/tema4/8.png' alt='Presenta un ejemplo aplicado de la fórmula de aprovechamiento de tela. Se divide un área útil de 1.15 metros cuadrados entre un área total de 1.5 metros cuadrados, y el resultado se multiplica por 100. El aprovechamiento obtenido es del 76.67 %, lo que indica que se utiliza eficientemente esa proporción del material disponible.')
+                    img(src='@/assets/curso/tema4/8.png' alt='Presenta un ejemplo aplicado de la fórmula de aprovechamiento de tela. Se divide un área útil de 1.15 metros cuadrados entre un área total de 1.5 metros cuadrados, y el resultado se multiplica por 100. El aprovechamiento obtenido es del 76.67 %, lo que indica que se utiliza eficientemente esa proporción del material disponible.')
            
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")

@@ -32,15 +32,15 @@
         .ap4.p-3.mb-2
           img.img-a.img-t(src='@/assets/curso/tema5/4.svg' alt='Desarrollo en plano de un cubo formado por seis cuadrados unidos, dispuesto en forma de cruz con pestañas laterales para su armado.')
         figcaption Fuente: SENA, (2021)
-      .col-lg-4.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema5/2.png')
+      .col-lg-4.mb-0
+        img.d-none.d-lg-block(src='@/assets/curso/tema5/2.png')
 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3
-        img(src='@/assets/curso/tema5/5.png')
+        img.d-none.d-lg-block(src='@/assets/curso/tema5/5.png')
       .col-lg-9
-        img.img-t.mb-4(src='@/assets/curso/tema5/6.svg')
+        img.img-t.mb-4.d-none.d-lg-block(src='@/assets/curso/tema5/6.svg')
         .ap4.p-4.mb-0
           .br2.mb-4.mt-lg-5
           p.mb-lg-4.mb-0 Teniendo en cuenta lo abordado hasta ahora, es pertinente preguntarse: ¿para qué sirve el patronaje? Su utilidad radica en trasladar la estructura del cuerpo humano a planos técnicos, que luego se convierten en moldes para la confección de prendas.
@@ -67,7 +67,7 @@
 
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6
+      .col-lg-6.col-md-6.mb-lg-0.mb-md-0.mb-4
         .ap13.p-4.h-100
           .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
             .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
@@ -77,8 +77,8 @@
                 h4.mb-0 A. Patronaje industrial
           p.mb-4 Este tipo de patronaje parte del análisis antropométrico de la figura humana en 3D y se desarrolla en 2D, ya sea en papel o mediante software especializado como Audaces 360, Optitex, Gerber o Lectra. Su metodología precisa permite trazar básicos, desarrollar patrones y realizar transformaciones de forma eficiente.
           p.mb-4 Se basa en tablas de medidas definidas según regiones y tipos de prenda, lo que facilita el escalado. A partir de una talla base, se aplican incrementos estandarizados para generar múltiples tallas sin necesidad de crear nuevos moldes, optimizando así la producción en serie.
-          img.img-t(src='@/assets/curso/tema5/8.svg')
-      .col-lg-6
+          img.img-t.d-none.d-lg-block(src='@/assets/curso/tema5/8.svg')
+      .col-lg-6.col-md-6
         .ap13.p-4.h-100
           h5.mb-4 El patronaje industrial incluye:
           ul.lista-ul
@@ -165,13 +165,13 @@
             figcaption Fuente: https://tarahilebas.com/moulage// 
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         .ap12.p-4
           p.mb-0 En los procesos productivos de la industria de la confección, las fichas técnicas son herramientas clave que guían el trabajo de cada integrante del equipo. Estas fichas detallan de forma clara las especificaciones, materiales, secuencia de ensamblaje y requerimientos técnicos de cada prenda, garantizando uniformidad y precisión en la producción.
 
 
-    .tarjeta.color-primario.p-4.mb-4(data-aos="fade-right")
+    .tarjeta.color-primario.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema5/11.svg")
@@ -195,10 +195,10 @@
           h4.mb-0 Procedimiento y entorno
 
     
-    p.mb-5 Para lograr un producto que responda a las necesidades del cliente, es fundamental seguir una secuencia de pasos que aseguren el cumplimiento de los criterios técnicos y de calidad en la confección de prendas sobre medidas. Por tanto, se recomienda el siguiente procedimiento:
+    p.mb-4 Para lograr un producto que responda a las necesidades del cliente, es fundamental seguir una secuencia de pasos que aseguren el cumplimiento de los criterios técnicos y de calidad en la confección de prendas sobre medidas. Por tanto, se recomienda el siguiente procedimiento:
 
 
-    .tarjeta.color-primario.p-4.mb-4(data-aos="fade-right")
+    .tarjeta.color-primario.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema5/11.svg")
@@ -244,35 +244,39 @@
 
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-4
         .ap16.p-4.h-100
           h5.mb-4 El patronaje industrial incluye:
-          ul.lista-ul
-            li.d-flex.mb-2
-              i.fas.fa-leaf
-              p.mb-0 Nombre de la pieza.
-            li.d-flex.mb-2
-              i.fas.fa-leaf
-              p.mb-0 Referencia.
-            li.d-flex.mb-2
-              i.fas.fa-leaf
-              p.mb-0 Talla.
-            li.d-flex.mb-2
-              i.fas.fa-leaf
-              p.mb-0 Nombre del patronista.
-            li.d-flex.mb-2
-              i.fas.fa-leaf
-              p.mb-0 Simbología de corte.
-            li.d-flex.mb-2
-              i.fas.fa-leaf
-              p.mb-0 Cantidad de veces a cortar.
-            li.d-flex.mb-2
-              i.fas.fa-leaf
-              p.mb-0 Piquetes de confección.
-            li.d-flex.mb-2  
-              i.fas.fa-leaf
-              p.mb-0 Líneas de aplome.
-          img.img-t(src="@/assets/curso/tema5/13.svg")
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-12.col-md-6
+              ul.lista-ul.mb-0
+                li.d-flex.mb-2
+                  i.fas.fa-leaf
+                  p.mb-0 Nombre de la pieza.
+                li.d-flex.mb-2
+                  i.fas.fa-leaf
+                  p.mb-0 Referencia.
+                li.d-flex.mb-2
+                  i.fas.fa-leaf
+                  p.mb-0 Talla.
+                li.d-flex.mb-2
+                  i.fas.fa-leaf
+                  p.mb-0 Nombre del patronista.
+            .col-lg-12.col-md-6
+              ul.lista-ul.mb-0
+                li.d-flex.mb-2
+                  i.fas.fa-leaf
+                  p.mb-0 Simbología de corte.
+                li.d-flex.mb-2
+                  i.fas.fa-leaf
+                  p.mb-0 Cantidad de veces a cortar.
+                li.d-flex.mb-2
+                  i.fas.fa-leaf
+                  p.mb-0 Piquetes de confección.
+                li.d-flex.mb-0.mb-lg-4 
+                  i.fas.fa-leaf
+                  p.mb-0 Líneas de aplome.
+          img.img-t.d-none.d-lg-block(src="@/assets/curso/tema5/13.svg")
 
       .col-lg-9
         .ap17.p-4.h-100
@@ -293,7 +297,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7.mb-lg-0.mb-4
         .ap3.p-4
           .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
             .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
@@ -329,7 +333,7 @@
             li.d-flex.mb-0
               i.fas.fa-leaf
               p.mb-0 #[b Juego de reglas de patronaje], incluyendo sisómetro, curvas y escuadra.
-      .col-lg-5
+      .col-lg-5.col-md-6.col-8
         img.img-t.img-a(src="@/assets/curso/tema5/14.svg")
 
 
@@ -388,7 +392,7 @@
           .col-lg-7
             h4.mb-4 Medida de contorno más prominente
             p.mb-lg-0.mb-4 En moda infantil, la medida más relevante para prendas superiores suele ser el contorno de pecho, ya que constituye la referencia central del patrón base. Esta medida puede ser representada mediante convenciones o letras que faciliten el trazado.
-            p.mb-lg-0.mb-0 Ejemplo: P = Contorno de pecho de la talla seleccionada.
+            p.mb-lg-0.mb-4 Ejemplo: P = Contorno de pecho de la talla seleccionada.
           .col-lg-5.col-md-8
             img.mb-0(alt="" src="@/assets/curso/tema5/18.png")
         .row.justify-content-center.align-items-center.p-0.p-lg-4
@@ -429,14 +433,14 @@
 
     .row.justify-content-center.align-items-center.mb-4.mt-5(data-aos="fade-left")
       .col-lg-12
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5
+        .bloque-texto-a.color-acento-contenido.te55.p-4.p-md-4.p-lg-5
           .row.align-items-center.justify-content-center
             .col-lg-8.mb-0
-              .apw.p-4
+              .apw.p-3
                 p.mb-0(data-aos="fade-left") La construcción de este patrón básico constituye un punto de partida esencial, pues de él se derivan transformaciones posteriores que posibilitan la creación de blusas, camisas, chaquetas y otras prendas superiores en moda casual infantil. En este sentido, el aprendizaje se organiza desde la comprensión del rectángulo inicial, el uso de medidas de contorno y talle, y la aplicación de fórmulas que aseguran precisión en el trazo. De esta manera, se establece un fundamento metodológico que articula la teoría con la práctica, garantizando un proceso de patronaje riguroso, adaptable y orientado al diseño infantil femenino.
             .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
               figure
-                img.mb-lg-0.img-t.cs(data-aos="fade-left")(src='@/assets/curso/tema5/23.png', alt='')
+                img.mb-lg-0.img-t.cs4(data-aos="fade-left")(src='@/assets/curso/tema5/23.png', alt='')
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -532,7 +536,7 @@
             .titulo-sexto.mb-4
               h5 Figura 19.
               | Segundo paso del trazo del básico superior infantil 
-            .ap15.p-4.mb-3
+            .ap15.p-lg-4.p-0.mb-3
               img.img-a.img-t(src='@/assets/curso/tema5/25.svg' alt='Trazado técnico de un patrón básico infantil donde se incorporan medidas, puntos de referencia y desplazamientos específicos en hombros, escote y sisa, señalados con líneas, símbolos y valores numéricos.')
             figcaption Fuente: SENA, (2021) 
  
@@ -614,7 +618,7 @@
                 td.left Se utilizan como margen de costura y dobladillo.
  
  
-    .tarjeta.color-primario.p-4.mb-4(data-aos="fade-right")
+    .tarjeta.color-primario.p-4.mb-0(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema4/3.svg")
@@ -646,7 +650,7 @@
             .titulo-sexto.mb-4
               h5 Figura 20.
               | Trazo de patrón básico de manga
-            .ap15.p-4.mb-3
+            .ap15.p-lg-4.p-0.mb-3
               img.img-a.img-t(src='@/assets/curso/tema5/26.svg' alt='Patrón técnico de una manga infantil donde se representan el largo total, el alto de copa y las medidas de ancho, acompañado de curvas y puntos de referencia que definen la forma de la sisa y el contorno de la manga.')
             figcaption Fuente: SENA, (2021) 
 

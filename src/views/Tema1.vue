@@ -42,8 +42,8 @@
         .row.justify-content-center.align-items-center.p-0.p-lg-4
           .col-lg-7
             h4.mb-4 Antropometría
-            p.mb-lg-4.mb-4 La antropometría es considerada como una ciencia que se encarga de medir y analizar las dimensiones físicas, de igual manera contempla las proporciones del cuerpo humano en todas sus etapas del desarrollo.  Así mismo, también es considerada como una disciplina que aborda campos como la ergonomía, nutrición y medicina, con el objetivo de evaluar el estado de salud de una persona, lo que permite diseñar espacios, objetos y elementos comprendidos a partir de las variaciones físicas en diferentes contextos.
-            P.mb-lg-0.mb-0 En el campo de la elaboración de vestuario, este concepto es aplicado a partir del análisis ergonómico para poder generar prendas que faciliten el movimiento corporal.
+            p.mb-4 La antropometría es considerada como una ciencia que se encarga de medir y analizar las dimensiones físicas, de igual manera contempla las proporciones del cuerpo humano en todas sus etapas del desarrollo.  Así mismo, también es considerada como una disciplina que aborda campos como la ergonomía, nutrición y medicina, con el objetivo de evaluar el estado de salud de una persona, lo que permite diseñar espacios, objetos y elementos comprendidos a partir de las variaciones físicas en diferentes contextos.
+            P.mb-lg-0.mb-4 En el campo de la elaboración de vestuario, este concepto es aplicado a partir del análisis ergonómico para poder generar prendas que faciliten el movimiento corporal.
           .col-lg-5.col-md-8
             img.mb-0(alt="" src="@/assets/curso/tema1/4.png")
         .row.justify-content-center.align-items-center.p-0.p-lg-4
@@ -56,8 +56,8 @@
           .col-lg-7
             h4.mb-4 Biomecánica
             p.mb-lg-4.mb-4 Estudia los principios mecánicos que regulan el movimiento y la estructura del cuerpo humano, analizando las fuerzas internas y externas que actúan sobre él y la respuesta del sistema musculoesquelético. 
-            P.mb-lg-4.mb-0 Se aplica en áreas como prótesis, deporte y rehabilitación.
-            P.mb-lg-0.mb-0 En el diseño de prendas de vestir, su relación con la #[b anatomía] se centra en la #[b adaptación] y la #[b funcionalidad] de las prendas al cuerpo humano.
+            P.mb-4 Se aplica en áreas como prótesis, deporte y rehabilitación.
+            P.mb-lg-0.mb-4 En el diseño de prendas de vestir, su relación con la #[b anatomía] se centra en la #[b adaptación] y la #[b funcionalidad] de las prendas al cuerpo humano.
           .col-lg-5.col-md-8
             img.mb-0(alt="" src="@/assets/curso/tema1/6.png")
         .row.justify-content-center.align-items-center.p-0.p-lg-4
@@ -122,7 +122,7 @@
                 p.mb-0.mx-lg-4(data-aos="fade-left") Con base en los conceptos previamente desarrollados, resulta fundamental comprender la manera en que se organiza la división del cuerpo en relación con sus diferentes miembros; este conocimiento permite establecer con precisión la clasificación de las prendas superiores e inferiores, facilitando su estudio y aplicación en el ámbito del diseño y la confección.
             .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
               figure
-                img.mb-lg-0.img-a.img-t.cs(data-aos="fade-left")(src='@/assets/curso/tema1/13.png', alt='')
+                img.mb-lg-0.img-a.img-t.cs2(data-aos="fade-left")(src='@/assets/curso/tema1/13.png', alt='')
 
 
     p.mb-5 Teniendo en cuenta lo anterior, las prendas de vestir se distribuyen a partir de los miembros superiores y miembros inferiores, lo cual permite establecer una clasificación funcional que facilita tanto su diseño como su confección. En los miembros superiores se incluyen prendas como blusas, camisas, chaquetas y abrigos, mientras que en los miembros inferiores se agrupan faldas, pantalones y #[em shorts]. 

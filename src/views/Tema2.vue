@@ -10,14 +10,14 @@
 
     .row.justify-content-center.align-items-center.mb-4.mt-0(data-aos="fade-left")
       .col-lg-12
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5
+        .bloque-texto-a.color-acento-contenido.p-4
           .row.align-items-center.justify-content-center
             .col-lg-8.mb-0
-              .apw.p-4
+              .apw.p-4.my-2
                 p.mb-0(data-aos="fade-left") El análisis de medidas constituye la base técnica para la elaboración de patrones de prendas de vestir, ya que permite interpretar y organizar la información corporal de manera precisa. A través de este proceso se logra identificar las dimensiones esenciales del cuerpo humano, que posteriormente se convierten en datos útiles para clasificar, deducir y estructurar cuadros de tallas. De esta manera, se asegura la coherencia entre el diseño, la confección y el ajuste final de las prendas, garantizando comodidad, estética y funcionalidad en cada creación.
             .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
               figure
-                img.mb-lg-0.img-a.img-t.cs(data-aos="fade-left")(src='@/assets/curso/tema2/1.png', alt='')
+                img.mb-lg-0.img-t.cs(data-aos="fade-left")(src='@/assets/curso/tema2/1.png', alt='')
 
 
     separador
@@ -26,7 +26,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4.col-md-7.col-9.mb-lg-0.mb-4
         img(src='@/assets/curso/tema2/2.png', alt=' ')
       .col-lg-8
         .ap4.p-4.mb-4
@@ -36,7 +36,7 @@
 
 
     .row.justify-content-center.align-items-start.mb-0
-        .col-lg-7
+        .col-lg-7.mb-lg-0.mb-4
           AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
             .row.align-items-center(titulo="Largos")
               .col-lg-12
@@ -133,7 +133,7 @@
           | Proporción de acuerdo con las etapas de crecimiento
         .ap3.mb-2.p-4
           img.img-t.img-a(src='@/assets/curso/tema2/9.png', alt='Serie de figuras humanas que representan el crecimiento desde recién nacido hasta adultez, comparando las proporciones corporales mediante el número de cabezas utilizadas como unidad de medida: 4 en recién nacidos, 5 a los 2 años, 6 a los 6 años, 7 a los 12 años y 8 a los 25 años.')
-        figcaption.mb-5.enl Fuente: Tomado de https://www.comocubriruncuerpo.org/proporciones-del-cuerpo-humano-1-da-vinci-y-vitruvio/
+        figcaption.mb-0.enl Fuente: Tomado de https://www.comocubriruncuerpo.org/proporciones-del-cuerpo-humano-1-da-vinci-y-vitruvio/
 
 
 
@@ -143,14 +143,14 @@
       h2 2.4 Medidas deducidas
 
 
-    .cajon-b.color-primario.p-3.mb-5
+    .cajon-b.color-primario.p-3.mb-lg-5.mb-4
       p.mb-0 Las medidas son unidades numéricas empleadas para representar el tamaño de una figura, objeto o parte específica; en el patronaje de prendas de vestir, estos datos se obtienen utilizando la cinta métrica de manera lineal, con el fin de registrar el largo, el ancho y el contorno de las diferentes partes del cuerpo. 
 
 
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12
-        .ap10.p-5
+        .ap10.p-lg-5.p-4
         
           .ap7
             .row.justify-content-center.align-items-center
@@ -158,10 +158,10 @@
                 .p-4
                   .row.justify-content-center.align-items-center.mb-0.mx-4
                     .col-lg-2
-                      img(src="@/assets/curso/tema2/11.svg")
+                      img.d-none.d-lg-block(src="@/assets/curso/tema2/11.svg")
                     .col-lg-10  
-                      p.mb-0.mx-lg-4(data-aos="fade-left") En Colombia, la metodología más común consiste en expresarlas en centímetros o pulgadas.
-              .col-lg-4.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right"): img(src='@/assets/curso/tema2/10.png', alt='')
+                      p.mb-0.mx-lg-4.mx-0(data-aos="fade-left") En Colombia, la metodología más común consiste en expresarlas en centímetros o pulgadas.
+              .col-lg-4.col-md-8.col-12.mb-lg-0.mb-0.d-none.d-lg-block(data-aos="fade-right"): img(src='@/assets/curso/tema2/10.png', alt='')
 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario3.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-left")
@@ -177,7 +177,7 @@
           
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
-        img(src='@/assets/curso/tema2/13.png', alt=' ')
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/13.png', alt=' ')
       .col-lg-8
         p.mb-4 Gracias a este proceso de deducción es posible complementar el sistema de patronaje y garantizar que las prendas conserven la proporcionalidad adecuada; en este análisis de medidas en patronaje, resulta indispensable traducir y organizar las dimensiones corporales obtenidas del cuerpo humano, puesto que estas guían todo el proceso de construcción de moldes. Un sistema de medidas claro y preciso permite clasificar los datos recolectados y aplicarlos de manera coherente en la elaboración de patrones, asegurando así uniformidad y exactitud.
         p.mb-0 El sistema de medidas en el área de patronaje se entiende como el conjunto de técnicas y procedimientos empleados para registrar y aplicar las medidas corporales en el diseño de prendas de vestir. La calidad de este proceso de medición resulta decisiva, pues de ella depende el ajuste, la comodidad, la proporcionalidad y la estética de la prenda terminada.
@@ -245,7 +245,7 @@
                 p.mb-0(data-aos="fade-left") En el ámbito internacional y nacional existen lineamientos técnicos que regulan la toma de medidas corporales y la estandarización de tallas, con el propósito de garantizar uniformidad en los procesos de diseño, confección y comercialización de prendas de vestir. Entre las principales normas se destacan:
             .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
               figure
-                img.mb-lg-0.img-a.img-t.cs1(data-aos="fade-left")(src='@/assets/curso/tema2/15.png', alt='')
+                img.mb-lg-0.img-a.img-t.cs3(data-aos="fade-left")(src='@/assets/curso/tema2/15.png', alt='')
 
 
     .row.justify-content-center.align-items-center.mb-0
