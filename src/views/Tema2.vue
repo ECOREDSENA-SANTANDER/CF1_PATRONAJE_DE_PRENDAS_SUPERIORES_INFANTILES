@@ -8,16 +8,15 @@
       h1 Análisis de medidas, clasificación y cuadros de tallas
 
 
-    .row.justify-content-center.align-items-center.mb-4.mt-0(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-12
-        .bloque-texto-a.color-acento-contenido.p-4
+        .bloque-texto-a.color-acento-contenido.p-4.mt-lg-4
           .row.align-items-center.justify-content-center
             .col-lg-8.mb-0
               .apw.p-4.my-2
                 p.mb-0(data-aos="fade-left") El análisis de medidas constituye la base técnica para la elaboración de patrones de prendas de vestir, ya que permite interpretar y organizar la información corporal de manera precisa. A través de este proceso se logra identificar las dimensiones esenciales del cuerpo humano, que posteriormente se convierten en datos útiles para clasificar, deducir y estructurar cuadros de tallas. De esta manera, se asegura la coherencia entre el diseño, la confección y el ajuste final de las prendas, garantizando comodidad, estética y funcionalidad en cada creación.
             .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
-              figure
-                img.mb-lg-0.img-t.cs(data-aos="fade-left")(src='@/assets/curso/tema2/1.png', alt='')
+              img.mb-lg-0.img-t.cs5(data-aos="fade-left")(src='@/assets/curso/tema2/1.png', alt='')
 
 
     separador
