@@ -15,14 +15,14 @@
         p.mb-0 Los textiles, tanto en el ámbito del vestuario como en el industrial, se producen a partir de fibras que se transforman en filamentos; estos filamentos, una vez hilados, se convierten en hilos que posteriormente son tejidos para dar origen a las telas. El proceso textil, por lo tanto, comprende una secuencia organizada de etapas que van desde la obtención de la fibra hasta la elaboración de los diferentes tipos de tejidos.
 
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         TabsA.color-acento-contenido.mb-0(data-aos="fade-right")
-          .tarjeta.color-a.p-lg-5.p-4(titulo="Fibras textiles")
+          .tarjeta.color-a.p-4(titulo="Fibras textiles")
             .row.justify-content-center
               .col-lg-11
                 p.mb-0 Las fibras textiles constituyen la unidad fundamental de cualquier estructura textil. Una fibra se entiende como un filamento cuya longitud es considerablemente mayor a su diámetro y que, al agruparse, permite la fabricación de hilos, tejidos y telas. En términos prácticos, cada fibra es la materia prima sólida que da origen a toda construcción textil.
-          .tarjeta.color-a.p-lg-5.p-4(titulo="Clasificación de las fibras")
+          .tarjeta.color-a.p-4(titulo="Clasificación de las fibras")
             .row.justify-content-center
               .col-lg-11
                 p.mb-4 La clasificación de las fibras se realiza según su origen, dividiéndose en dos grandes grupos:
@@ -38,7 +38,7 @@
     p.mb-4 Como complemento se representa esta clasificación, facilitando la comprensión de las principales tipologías de fibras que intervienen en la industria textil:
 
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4(alt='Tabla organizada que clasifica las fibras textiles en dos grandes grupos: fibras naturales y fibras químicas, según su origen y composición.')
           h5 Tabla 3.
@@ -127,7 +127,7 @@
           h4.mb-0 La clasificación de los tejidos se divide en tres grupos principales
 
 
-    .row.justify-content-center.align-items-stretch.mb-4
+    .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .ap8.p-4.h-100
           .apw1.p-1.mb-4
@@ -209,7 +209,7 @@
  
 
 
-    .bloque-texto-g.color-acento.p-4.p-lg-5.p-md-4.mb-4(data-aos="fade-left")
+    .bloque-texto-g.color-acento.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/2.png')})`}"
       )
@@ -241,7 +241,7 @@
       h2 4.1 Aprovechamiento
 
 
-    .ap4.p-5.mb-4
+    .ap4.p-lg-5.p-4.mb-5
       .br2.mb-3
       .p.mb-0 El aprovechamiento por metro de tela consiste en determinar cuánta tela se utiliza realmente para confeccionar una prenda en relación con la cantidad total comprada; este cálculo es crucial para optimizar costos, minimizar desperdicios y mejorar la eficiencia en producción.
       
@@ -316,7 +316,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12.clp
         TabsA.color-acento-contenido.mb-0(data-aos="fade-right")
-          .tarjeta.color-a.p-lg-5.p-4(titulo="Factores que afectan el aprovechamiento")
+          .tarjeta.color-a.p-4(titulo="Factores que afectan el aprovechamiento")
             .row.justify-content-center
               .col-lg-11
                 ul.lista-ul.mb-0
@@ -332,7 +332,7 @@
                   li.d-flex.mb-2
                     i.fas.fa-star
                     p.mb-0 #[b Técnicas de corte:] el uso de software de corte o corte manual puede influir en el rendimiento.
-          .tarjeta.color-a.p-lg-5.p-4(titulo="Consideraciones adicionales")
+          .tarjeta.color-a.p-4(titulo="Consideraciones adicionales")
             .row.justify-content-center
               .col-lg-11
                 ul.lista-ul.mb-0

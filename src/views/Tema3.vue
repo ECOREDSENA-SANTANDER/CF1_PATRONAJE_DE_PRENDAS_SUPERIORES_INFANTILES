@@ -8,7 +8,7 @@
       h1 Moda
 
 
-    .bloque-texto-g.color-primario4.p-4.p-lg-5.p-md-4.mb-lg-5.mb-0(data-aos="fade-left")
+    .bloque-texto-g.color-primario4.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
       )
@@ -18,7 +18,7 @@
     img.mb-4(src='@/assets/curso/tema3/2.png', alt='')
 
 
-    p.mb-4 A partir de esta perspectiva, en el sector de la moda se reconoce el concepto de “sistema moda”, entendido como un entramado que integra no solo las prendas de vestir, sino también accesorios, complementos y calzado, al tiempo que incorpora dimensiones cambiantes y adaptables de acuerdo con las tendencias contemporáneas.
+    p.mb-0 A partir de esta perspectiva, en el sector de la moda se reconoce el concepto de “sistema moda”, entendido como un entramado que integra no solo las prendas de vestir, sino también accesorios, complementos y calzado, al tiempo que incorpora dimensiones cambiantes y adaptables de acuerdo con las tendencias contemporáneas.
 
     
 
@@ -85,16 +85,13 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        .ap10.p-5
-          .ap7
-            .row.justify-content-center.align-items-center
-              .col-lg-12(data-aos="fade-left")
-                .p-4
-                  .row.justify-content-center.align-items-center.mb-0.mx-4
-                    .col-lg-2
-                      img.img-t.d-none.d-lg-block(src="@/assets/curso/tema3/3.png")
-                    .col-lg-10.ps-lg-0  
-                      p.mb-0(data-aos="fade-left") Ocasión de uso: contempla los posibles escenarios en los que una persona o grupos de personas usan una prenda de acuerdo con el contexto, esto es pactado culturalmente y hace parte de la identidad culturar individual y grupal.
+        .ap10.p-lg-5.p-4
+          .ap7.p-4
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-2
+                img.img-t.d-none.d-lg-block(src="@/assets/curso/tema3/3.png")
+              .col-lg-10.ps-lg-0 
+                p.mb-0(data-aos="fade-left") Ocasión de uso: contempla los posibles escenarios en los que una persona o grupos de personas usan una prenda de acuerdo con el contexto, esto es pactado culturalmente y hace parte de la identidad culturar individual y grupal.
             
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -167,7 +164,7 @@
         p.mb-0 Las tipologías de las prendas se clasifican en función de la estructura corporal. Por esta razón, para completar la etapa de conceptualización, resulta necesario realizar una clasificación que permita identificar las partes de las prendas según la arquitectura del cuerpo. 
 
 
-    .tarjeta.color-primario.p-4.mb-4(data-aos="fade-right")
+    .tarjeta.color-primario.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema3/5.svg")

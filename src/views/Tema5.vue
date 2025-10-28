@@ -10,7 +10,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
-        .ap3.p-5.mb-4
+        .ap3.p-lg-5.p-4.mb-4
           .br2.mb-4
           p.mb-lg-4.mb-0 El patronaje es la representación bidimensional de un volumen tridimensional, lo que permite definir la estructura de una prenda a través de planos. Este proceso es clave para desarrollar moldes o patrones que se ajusten correctamente al cuerpo.
       .col-lg-3
@@ -18,7 +18,7 @@
       
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.mb-4
+      .col-lg-4.mb-lg-4.mb-5
         .titulo-sexto.mb-4
           h5 Figura 14.
           | Plano en 3D
@@ -374,7 +374,7 @@
     p.mb-5 El aprendizaje del patronaje infantil está diseñado para iniciar a partir de patrones base, que posteriormente derivan en moldes fundamentales y específicos. Este análisis incluye:
 
 
-    .tarjetaf.p-4.mb-5
+    .tarjetaf.p-4.mb-0
       SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
         .row.justify-content-center.align-items-center.p-0.p-lg-4
           .col-lg-7
@@ -431,7 +431,7 @@
     p.mb-5 El estudio del patronaje infantil inicia con la explicación del trazo del patrón básico superior, entendido como la base estructural a partir de la cual se desarrollan moldes más complejos y prendas de mayor detalle. Siguiendo la orientación del manual de patronaje básico e interpretación de diseño del SENA, este primer acercamiento permite comprender las proporciones, líneas y referencias necesarias para trabajar sobre el cuerpo en crecimiento de las niñas, considerando tanto su ergonomía como los principios de comodidad y ajuste.
 
 
-    .row.justify-content-center.align-items-center.mb-4.mt-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5.mt-5(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-a.color-acento-contenido.te55.p-4.p-md-4.p-lg-5
           .row.align-items-center.justify-content-center

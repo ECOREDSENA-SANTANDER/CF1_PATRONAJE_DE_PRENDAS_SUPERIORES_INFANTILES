@@ -8,7 +8,7 @@
       h1 Análisis de medidas, clasificación y cuadros de tallas
 
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-a.color-acento-contenido.p-4.mt-lg-4
           .row.align-items-center.justify-content-center
@@ -35,7 +35,7 @@
 
 
     .row.justify-content-center.align-items-start.mb-0
-        .col-lg-7.mb-lg-0.mb-4
+        .col-lg-7.mb-lg-0.mb-5
           AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
             .row.align-items-center(titulo="Largos")
               .col-lg-12
@@ -150,12 +150,11 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12
         .ap10.p-lg-5.p-4
-        
           .ap7
             .row.justify-content-center.align-items-center
               .col-lg-8(data-aos="fade-left")
                 .p-4
-                  .row.justify-content-center.align-items-center.mb-0.mx-4
+                  .row.justify-content-center.align-items-center.mb-0.mx-lg-4
                     .col-lg-2
                       img.d-none.d-lg-block(src="@/assets/curso/tema2/11.svg")
                     .col-lg-10  
