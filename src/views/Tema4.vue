@@ -54,17 +54,18 @@
             tbody
               tr
                 td(rowspan="7") #[b Fibras naturales]
-                td(rowspan="3") Animales
+                td(rowspan="2") Animales
                 td.left Procedentes de glándulas sedosas.
                 td.left Seda y seda salvaje.
               tr
                 td.left Procedentes de folículos pilosos.
                 td.left Pelo de alpaca, angora, buey, caballo, conejo, castor, camello, cachemira, cabra guanaco, llama, nutria, yak y vicuña.
+              
               tr
+                td(rowspan="4") Vegetales
                 td.left Procedentes de las semillas.
                 td.left Algodón.
               tr
-                td(rowspan="3") Vegetales
                 td.left Procedentes del tallo.
                 td.left Lino, cáñamo, yute y ramio.
               tr
@@ -94,7 +95,7 @@
                 td.left Polivinilo y poliacrílicos.
               tr
                 td.left Por condensación.
-                td.left Poliéster (tergal) y poliamida (nylon).
+                td.left Poliéster (tergal) y poliamida (#[em nylon]).
               tr
                 td.left Por poliadición.
                 td.left Poliuretano y poliespán.
@@ -109,14 +110,14 @@
               .col-12
                 img.img-a.img-t.mb-5(src='@/assets/curso/tema2/4.svg', alt='Imagen decorativa.')
                 h3.mb-4.text-center Hilos e hilatura
-                p.mb-4 se denomina hilo al conjunto de fibras textiles, continuas o discontinuas, que se tuercen juntas alcanzando una gran longitud y que es directamente empleado para la fabricación de tejidos, a su vez, hilatura al arte de hilar los filamentos para obtener un conjunto de hebras preparadas para el proceso de construcción de hilos y tejidos. 
+                p.mb-4 Se denomina hilo al conjunto de fibras textiles, continuas o discontinuas, que se tuercen juntas alcanzando una gran longitud y que es directamente empleado para la fabricación de tejidos, a su vez, hilatura al arte de hilar los filamentos para obtener un conjunto de hebras preparadas para el proceso de construcción de hilos y tejidos. 
          
           .col-md.tarjeta.color-secundario.p-4.p-md-4.p-lg-5.mb-lg-0.mb-4(data-aos="fade-left")
             .row.justify-content-center.mb-0
               .col-12
                 img.img-a.img-t.mb-5(src='@/assets/curso/tema2/5.svg', alt='Imagen decorativa.')
                 h3.mb-4.text-center Tejidos
-                p.mb-4.mb-lg-5.mb-md-5 son estructuras manufacturadas a partir de fibras o hilos que presentan una proporción significativa entre su longitud, área y espesor, y que cuentan con suficiente resistencia mecánica para mantener su cohesión (Textile Terms and Definitions, The Textile Institute, citado por el SENA).
+                p.mb-4.mb-lg-5.mb-md-5 Son estructuras manufacturadas a partir de fibras o hilos que presentan una proporción significativa entre su longitud, área y espesor, y que cuentan con suficiente resistencia mecánica para mantener su cohesión (Textile Terms and Definitions, The Textile Institute, citado por el SENA).
 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
@@ -132,17 +133,17 @@
         .ap8.p-4.h-100
           .apw1.p-1.mb-4
             h4.mb-0 Tejidos planos
-          p.mb-0.text-center formados por el entrelazado perpendicular de hilos de urdimbre y trama.
+          p.mb-0.text-center Formados por el entrelazado perpendicular de hilos de urdimbre y trama.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .ap8.p-4.h-100
           .apw1.p-1.mb-4
             h4.mb-0 Tejidos de punto
-          p.mb-0.text-center construidos a partir de bucles entrelazados, lo que les otorga mayor elasticidad.
+          p.mb-0.text-center Construidos a partir de bucles entrelazados, lo que les otorga mayor elasticidad.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .ap8.p-4.h-100
           .apw1.p-1.mb-4
             h4.mb-0 No tejidos
-          p.mb-0.text-center materiales obtenidos sin procesos de tejido o hilado tradicionales, mediante técnicas como el prensado, agujereado o termofusión.
+          p.mb-0.text-center Materiales obtenidos sin procesos de tejido o hilado tradicionales, mediante técnicas como el prensado, agujereado o termofusión.
 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
@@ -179,7 +180,7 @@
                       p.mb-0 • Sarga interrumpida #[em (broken twill).]
               tr
                 td.left Otros.
-                td.left • Dobby, jacquard, riso, afeipados, etc.
+                td.left • #[em Dobby, jacquard,] riso, afeipados, etc.
               tr
                 td(rowspan="2") Punto
                 td.left Por trama.
@@ -230,7 +231,7 @@
               h4.mb-2 Sesión 6 - caracterización de los textiles
               p.mb-0 Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace:
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=mc1kARHDHrs&t=1s" target="_blank")
+              a.boton.color-acento-botones(href="https://youtu.be/kL9UYOzJD3o" target="_blank")
                 span Ir al sitio
                 i.fas.fa-file-video
 
@@ -297,7 +298,7 @@
                       | Fórmula de aprovechamiento
                     img.mb-lg-0.mb-4(src='@/assets/curso/tema4/7.png' alt='Fórmula utilizada para calcular el porcentaje de aprovechamiento de tela. Se obtiene dividiendo el área útil utilizada por los patrones entre el área total del metro de tela, y multiplicando el resultado por 100.') 
                   .col-lg-6
-                    p.mb-4 #[b Nota:] tela 1 metro de largo x 1,50 metros de ancho = 1,5 m². Área ocupada por los patrones: 1,15 m².
+                    p.mb-4 #[b Nota:] tela: 1 metro de largo x 1,50 metros de ancho = 1,5 m². Área ocupada por los patrones: 1,15 m².
                     .titulo-sexto.mb-2
                       h5 Figura 13. 
                       | Ejemplo de aplicación
@@ -309,8 +310,7 @@
         .subti
       .col.ps-lg-0
         .ssu.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
-          h4.mb-0 Pasos para determinar el aprovechamiento
-
+          h4.mb-0 Variables que inciden en la eficiencia del consumo textil
 
 
     .row.justify-content-center.align-items-center.mb-4
@@ -331,7 +331,7 @@
                     p.mb-3 #[b Diseño o estampado:] telas con dibujos direccionados limitan la rotación de piezas.
                   li.d-flex.mb-2
                     i.fas.fa-star
-                    p.mb-0 #[b Técnicas de corte:] el uso de software de corte o corte manual puede influir en el rendimiento.
+                    p.mb-0 #[b Técnicas de corte:] el uso de #[em software] de corte o corte manual puede influir en el rendimiento.
           .tarjeta.color-a.p-4(titulo="Consideraciones adicionales")
             .row.justify-content-center
               .col-lg-11

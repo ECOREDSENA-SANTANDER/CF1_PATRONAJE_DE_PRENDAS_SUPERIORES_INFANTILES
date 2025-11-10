@@ -75,7 +75,7 @@
             .col.ps-lg-0
               .ssu.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
                 h4.mb-0 A. Patronaje industrial
-          p.mb-4 Este tipo de patronaje parte del análisis antropométrico de la figura humana en 3D y se desarrolla en 2D, ya sea en papel o mediante software especializado como Audaces 360, Optitex, Gerber o Lectra. Su metodología precisa permite trazar básicos, desarrollar patrones y realizar transformaciones de forma eficiente.
+          p.mb-4 Este tipo de patronaje parte del análisis antropométrico de la figura humana en 3D y se desarrolla en 2D, ya sea en papel o mediante #[em software] especializado como Audaces 360, Optitex, Gerber o Lectra. Su metodología precisa permite trazar básicos, desarrollar patrones y realizar transformaciones de forma eficiente.
           p.mb-4 Se basa en tablas de medidas definidas según regiones y tipos de prenda, lo que facilita el escalado. A partir de una talla base, se aplican incrementos estandarizados para generar múltiples tallas sin necesidad de crear nuevos moldes, optimizando así la producción en serie.
           img.img-t.d-none.d-lg-block(src='@/assets/curso/tema5/8.svg')
       .col-lg-6.col-md-6
@@ -179,7 +179,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-2 Conceptos de prepatronaje
-              p.mb-0 Complementa esta información con los conceptos y elementos más importantes en el prepatronaje industrial:
+              p.mb-0 Complemente esta información con los conceptos y elementos más importantes en el prepatronaje industrial:
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Conceptos_de_prepatronaje.pdf')" target="_blank")
                 span Descargar 
@@ -206,7 +206,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-2 Pasos para definir el patronaje 
-              p.mb-0 Complementa esta información con cada uno de los pasos que se debe seguir para realizar el procedimiento de patronaje:
+              p.mb-0 Complemente esta información con cada uno de los pasos que se debe seguir para realizar el procedimiento de patronaje:
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Pasos_para_definir_el_patronaje.pdf')" target="_blank")
                 span Descargar 
@@ -246,7 +246,6 @@
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-3.mb-lg-0.mb-4
         .ap16.p-4.h-100
-          h5.mb-4 El patronaje industrial incluye:
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-12.col-md-6
               ul.lista-ul.mb-0
@@ -348,7 +347,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-2 Manual de patronaje. Básico e interpretación de diseños
-              p.mb-0 Complementa esta información con las diferentes simbologías, que facilitan los procesos técnicos de patronaje y corte:
+              p.mb-0 Complemente esta información con las diferentes simbologías, que facilitan los procesos técnicos de patronaje y corte:
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Manual_patronaje_basico_interpretacion_disenos.pdf')" target="_blank")
                 span Descargar 

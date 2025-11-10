@@ -187,8 +187,7 @@ export default {
       referencia:
         'Servicio Nacional de Aprendizaje, SENA. (2021).  Trazo de manga y cabezas de manga.  Ecosistema de recursos educativos.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=EAl_FBfkYUE&t=2018s&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
+      link: 'https://youtu.be/flZWxWKNq5s',
     },
   ],
   glosario: [

@@ -91,7 +91,7 @@
               .col-lg-2
                 img.img-t.d-none.d-lg-block(src="@/assets/curso/tema3/3.png")
               .col-lg-10.ps-lg-0 
-                p.mb-0(data-aos="fade-left") Ocasión de uso: contempla los posibles escenarios en los que una persona o grupos de personas usan una prenda de acuerdo con el contexto, esto es pactado culturalmente y hace parte de la identidad culturar individual y grupal.
+                p.mb-0(data-aos="fade-left") #[b Ocasión de uso:] contempla los posibles escenarios en los que una persona o grupos de personas usan una prenda de acuerdo con el contexto, esto es pactado culturalmente y hace parte de la identidad culturar individual y grupal.
             
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -145,7 +145,7 @@
               h4.mb-2 Gamas de mercado Universos de vestuarios - ocasiones de uso
               p.mb-0 Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace:
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=YXT2HTjiB3Q&t=2s" target="_blank")
+              a.boton.color-acento-botones(href="https://youtu.be/VsTacEciP3k" target="_blank")
                 span Ir al sitio
                 i.fas.fa-file-video
 

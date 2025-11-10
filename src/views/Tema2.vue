@@ -50,7 +50,7 @@
           .titulo-sexto.mb-4
             h5 Figura 3. 
             | Toma de medidas infantil 
-          img(src='@/assets/curso/tema2/3.svg', alt=' ')     
+          img(src='@/assets/curso/tema2/3.svg', alt='Diagrama de una figura femenina con líneas y números que señalan puntos clave de medición corporal, incluyendo contornos, anchos, largos y estatura total, utilizados como referencia en patronaje y confección.')     
 
 
 
@@ -167,11 +167,10 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/12.png')})`}"
       )
       .bloque-texto-g__texto.p-lg-5.p-4
-        p.mb-0 Incluyen materiales de uso médico o quirúrgico que, aunque no poseen acción farmacológica directa, son fundamentales para la atención en salud. Dentro de esta categoría se encuentran elementos como jeringas, guantes, gasas, catéteres, soluciones intravenosas y cintas adhesivas.
+        p.mb-0 Las medidas corporales se toman a partir de los puntos de referencia o anclaje del cuerpo humano, considerando parámetros antropométricos y anatómicos. Estas deben contemplar los volúmenes y las protuberancias naturales del cuerpo, y se clasifican en tres grandes grupos.
         br
         br
-        p.mb-0 Debido a su alta rotación y demanda constante, especialmente en instituciones hospitalarias y servicios de urgencias, es indispensable que los proveedores aseguren disponibilidad permanente, entregas oportunas y el cumplimiento de normas de calidad e higiene.
-
+        p.mb-0 Las medidas deducidas corresponden a un proceso que se desarrolla una vez obtenidas las medidas corporales del cliente, ya que a partir de ellas se establece el cuadro de tallas completo, dentro de este procedimiento se consideran principalmente dos referencias: la altura o estatura total y el contorno superior prominente; con base en estos datos, se aplican fórmulas que permiten calcular las demás dimensiones necesarias.
           
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
@@ -256,27 +255,24 @@
                   figure
                     img(src="@/assets/curso/tema2/19.svg", alt="alt")
                 .col
-                  h4.mb-3 Cultivos anuales
-                  p Completan su ciclo de vida desde la siembra hasta la cosecha en un solo año.
-                  p Ejemplos: maíz, arroz.
+                  h4.mb-1 Norma Técnica Colombiana NTC-ISO 8559:1995
+                  p.mb-0 Establece parámetros para la fabricación de vestuario basados en estudios antropométricos. Define las dimensiones corporales necesarias para clasificar y organizar los sistemas de tallaje, lo que permite adaptar las prendas a la diversidad morfológica de la población colombiana.
             .crd.crd--avatarHorizontal.py-3
               .row.align-items-center
                 .col-auto
                   figure
                     img(src="@/assets/curso/tema2/20.svg", alt="alt")
                 .col
-                  h4.mb-3 Cultivos bianuales
-                  p Requieren dos años para completar su desarrollo; en el primero crecen y en el segundo florecen y se cosechan.
-                  p Ejemplos: zanahoria, remolacha.
+                  h4.mb-1 Norma UNE-EN 13402-3
+                  p.mb-0 Regula el etiquetado de tallas de prendas de vestir en Europa, con un enfoque hacia la transparencia y el beneficio del consumidor. Su objetivo es proporcionar información clara, coherente y estandarizada sobre las medidas corporales, evitando confusiones entre fabricantes y usuarios finales.
             .crd.crd--avatarHorizontal.crd--last.py-3
               .row.align-items-center
                 .col-auto
                   figure
                     img(src="@/assets/curso/tema2/21.svg", alt="alt")
                 .col
-                  h4.mb-3 Cultivos perennes
-                  p Tienen una vida productiva de varios años y permiten cosechas continuas sin necesidad de replantar cada temporada.
-                  p Ejemplos: frutales, café.
+                  h4.mb-1 ISO 7250-1:2017
+                  p.mb-0 Basic human body measurements for technological design. Complementa los estándares anteriores al establecer un marco de referencia global para la toma sistemática de medidas antropométricas básicas, aplicables en múltiples industrias, incluida la moda.
           .col-lg-4.sob1.d-none.d-lg-block(data-aos="fade-left")
             img.mb-4(src="@/assets/curso/tema2/18.svg", alt="alt")  
 

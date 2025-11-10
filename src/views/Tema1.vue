@@ -113,7 +113,7 @@
       h2 1.1 División del cuerpo
 
 
-    .row.justify-content-center.align-items-center.mb-4.mt-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5.mt-5(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5
           .row.align-items-center.justify-content-center
@@ -124,8 +124,6 @@
               figure
                 img.mb-lg-0.img-a.img-t.cs2(data-aos="fade-left")(src='@/assets/curso/tema1/13.png', alt='')
 
-
-    p.mb-5 Teniendo en cuenta lo anterior, las prendas de vestir se distribuyen a partir de los miembros superiores y miembros inferiores, lo cual permite establecer una clasificación funcional que facilita tanto su diseño como su confección. En los miembros superiores se incluyen prendas como blusas, camisas, chaquetas y abrigos, mientras que en los miembros inferiores se agrupan faldas, pantalones y #[em shorts]. 
 
 
     .row.justify-content-center.align-items-center.mb-4
@@ -158,7 +156,9 @@
             li.d-flex.mb-2
               i.fas.fa-circle-chevron-right.r1
               p.mb-0 #[b Tobillos y pies:] complemento de las prendas inferiores en la parte baja del cuerpo; incluye medias o accesorios que cubren tobillos y pies.
-           
+
+    p.mb-5 Teniendo en cuenta lo anterior, las prendas de vestir se distribuyen a partir de los miembros superiores y miembros inferiores, lo cual permite establecer una clasificación funcional que facilita tanto su diseño como su confección. En los miembros superiores se incluyen prendas como blusas, camisas, chaquetas y abrigos, mientras que en los miembros inferiores se agrupan faldas, pantalones y #[em shorts]. 
+
 
     .tarjeta.color-primario.p-4.mb-0(data-aos="fade-right")
       .row.justify-content-around.align-items-center
