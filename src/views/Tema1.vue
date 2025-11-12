@@ -85,7 +85,7 @@
         .titulo-sexto.mb-4
           h5 Figura 1.
           | Modelos corporales femenino, masculino e infantil con proporciones por segmentos
-        .ap3.mb-2.p-4
+        .ap3.mb-0.p-lg-5.p-4
           img.img-t.img-a(src='@/assets/curso/tema1/10.png', alt='Representación de diferentes modelos corporales femeninos, desde la infancia hasta la adultez. Cada figura evidencia variaciones en la estatura, proporciones y madurez física, reflejando la evolución natural del cuerpo a lo largo del crecimiento.')
         
     .bloque-texto-g.color-primario2.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")

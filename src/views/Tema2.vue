@@ -130,10 +130,9 @@
         .titulo-sexto.mb-4
           h5 Figura 5.
           | Proporción de acuerdo con las etapas de crecimiento
-        .ap3.mb-2.p-4
+        .ap3.mb-0.p-4
           img.img-t.img-a(src='@/assets/curso/tema2/9.png', alt='Representación comparativa de las proporciones corporales femeninas en distintas etapas de la vida: infancia, juventud y adultez mayor. Evidencia los cambios en la altura, el desarrollo de las extremidades y la estructura corporal conforme avanza la edad.')
-        figcaption.mb-0.enl Fuente: Tomado de https://www.comocubriruncuerpo.org/proporciones-del-cuerpo-humano-1-da-vinci-y-vitruvio/
-
+        
 
 
 
