@@ -131,7 +131,7 @@
           h5 Figura 5.
           | Proporción de acuerdo con las etapas de crecimiento
         .ap3.mb-2.p-4
-          img.img-t.img-a(src='@/assets/curso/tema2/9.png', alt='Serie de figuras humanas que representan el crecimiento desde recién nacido hasta adultez, comparando las proporciones corporales mediante el número de cabezas utilizadas como unidad de medida: 4 en recién nacidos, 5 a los 2 años, 6 a los 6 años, 7 a los 12 años y 8 a los 25 años.')
+          img.img-t.img-a(src='@/assets/curso/tema2/9.png', alt='Representación comparativa de las proporciones corporales femeninas en distintas etapas de la vida: infancia, juventud y adultez mayor. Evidencia los cambios en la altura, el desarrollo de las extremidades y la estructura corporal conforme avanza la edad.')
         figcaption.mb-0.enl Fuente: Tomado de https://www.comocubriruncuerpo.org/proporciones-del-cuerpo-humano-1-da-vinci-y-vitruvio/
 
 

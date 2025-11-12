@@ -80,16 +80,14 @@
             img.mb-0(alt="" src="@/assets/curso/tema1/9.png")
 
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .titulo-sexto.mb-4
           h5 Figura 1.
           | Modelos corporales femenino, masculino e infantil con proporciones por segmentos
         .ap3.mb-2.p-4
-          img.img-t.img-a(src='@/assets/curso/tema1/10.png', alt='Se presentan tres esquemas anatómicos (femenino, masculino e infantil), en posición frontal y de pie. Cada modelo está acompañado de medidas que indican las proporciones corporales por segmentos, abarcando cabeza, tronco, extremidades y referencias específicas como altura total, ancho de hombros, largo de brazos y proporción de piernas. El propósito es evidenciar las diferencias en la distribución y relación de las dimensiones corporales entre los tres tipos de cuerpo. ')
-        figcaption.mb-5.enl Fuente: https://www.timetoast.com/timelines/pasos-para-realizar-una-adecuada-evaluacion-nutricional-antropometrica
-
-
+          img.img-t.img-a(src='@/assets/curso/tema1/10.png', alt='Representación de diferentes modelos corporales femeninos, desde la infancia hasta la adultez. Cada figura evidencia variaciones en la estatura, proporciones y madurez física, reflejando la evolución natural del cuerpo a lo largo del crecimiento.')
+        
     .bloque-texto-g.color-primario2.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/11.png')})`}"
@@ -103,7 +101,7 @@
         .titulo-sexto.mb-4
           h5 Figura 2.
           | Cuerpo infantil de niña, óseo y muscular
-        .ap3.mb-2.p-lg-5.p-4
+        .ap3.mb-0.p-lg-5.p-4
           img.img-t.img-a(src='@/assets/curso/tema1/12.png', alt='Ilustración comparativa de una niña en tres representaciones: figura externa, estructura ósea y sistema muscular, destacando las partes principales del cuerpo humano en cada nivel.')
         
 

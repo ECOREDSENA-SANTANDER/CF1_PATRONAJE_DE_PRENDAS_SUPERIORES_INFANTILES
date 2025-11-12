@@ -203,7 +203,7 @@
                     .ap12.p-3
                       .row.justify-content-center.align-items-stretch.mb-0
                         .col-lg-12
-                          img(src='@/assets/curso/tema3/8.png', alt='Una prenda infantil de corte formal con cuello camisero, abotonadura frontal completa y mangas largas.  La persona adopta una postura erguida frente a un espejo, lo que permite apreciar tanto el frente como el perfil del conjunto.')
+                          img(src='@/assets/curso/tema3/8.png', alt='Una prenda infantil de corte formal con cuello camisero, abotonadura frontal completa y mangas largas.  La persona adopta una postura erguida frente a un espejo, lo que permite apreciar tanto el frente como el perfil del conjunto. Una prenda infantil de corte formal con cuello camisero, abotonadura frontal completa y mangas largas.  La persona adopta una postura erguida frente a un espejo, lo que permite apreciar tanto el frente como el perfil del conjunto. Una prenda infantil de corte formal con cuello camisero, abotonadura frontal completa y mangas largas.  La persona adopta una postura erguida frente a un espejo, lo que permite apreciar tanto el frente como el perfil del conjunto.')
                   .tarjeta.color-acento-botones.p-4
                     .titulo-sexto.mb-4(alt='')
                       h5 Figura 8.
