@@ -182,12 +182,12 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Moda y Vestuario: universos paralelos con infinitas posibilidades de encuentro',
+      tema: 'Moda',
       referencia:
-        'Servicio Nacional de Aprendizaje, SENA. (2021).  Trazo de manga y cabezas de manga.  Ecosistema de recursos educativos.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). Trazo de manga y cabezas de manga.',
       tipo: 'Video',
-      link: 'https://youtu.be/flZWxWKNq5s',
+      link:
+        'https://www.youtube.com/watch?v=EAl_FBfkYUE&t=2018s&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
     },
   ],
   glosario: [
@@ -357,8 +357,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -367,12 +367,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Erika Daniela Manrique Rueda',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

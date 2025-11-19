@@ -98,7 +98,7 @@
         img.d-none.d-lg-block(src='@/assets/curso/tema2/6.svg', alt='Imagen decorativa')
 
 
-    p.mb-4 A continuación, se presenta el ejemplo de la figura humana masculina en canon y proporción:
+    p.mb-4 A continuación, se presenta el ejemplo de la figura humana en canon y proporción:
 
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")

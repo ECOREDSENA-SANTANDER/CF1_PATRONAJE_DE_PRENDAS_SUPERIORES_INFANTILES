@@ -82,11 +82,11 @@
                 td(rowspan="6") #[b Fibras químicas]
                 td Artificiales
                 td.left Base proteínica.
-                td.left De la caseína de la leche (Fibroína) y de algas (alginato).
+                td.left De la caseína de la leche (fibroína) y de algas (alginato).
               tr
                 td(rowspan="5") Sintéticas
                 td.left Base celulósica.
-                td.left Rayones (viscosa, crupón y acetato).
+                td.left Rayones (viscosa, cupro y acetato).
               tr
                 td.left Base metálica.
                 td.left Oro, plata y cobre.
@@ -180,7 +180,7 @@
                       p.mb-0 • Sarga interrumpida #[em (broken twill).]
               tr
                 td.left Otros.
-                td.left • #[em Dobby, jacquard,] riso, afeipados, etc.
+                td.left • #[em Dobby, jacquard,]  riso, afelpados, etc.
               tr
                 td(rowspan="2") Punto
                 td.left Por trama.
@@ -228,7 +228,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-2 Sesión 6 - caracterización de los textiles
+              h4.mb-2 Caracterización de los textiles
               p.mb-0 Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace:
             .col-sm-auto
               a.boton.color-acento-botones(href="https://youtu.be/kL9UYOzJD3o" target="_blank")

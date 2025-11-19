@@ -99,7 +99,7 @@
               p.mb-0 Desarrollo de colecciones según universos de vestuario y ocasiones de uso.
             li.d-flex.mb-0
               i.fas.fa-circle-chevron-right
-              p.mb-0 Se desarrollan toda una gama comercial que comprenden universos de vestuario y ocasiones de uso.
+              p.mb-0 Se desarrollan diversas gamas comerciales que comprenden universos de vestuario y ocasiones de uso.
 
 
 
@@ -162,7 +162,7 @@
               | Patronaje sobre maniquí 
             .ap15.p-4.mb-3
               img.img-a.img-t(src='@/assets/curso/tema5/10.png' alt='Proceso de construcción de una prenda directamente sobre un maniquí. Se trabaja con una pieza de tela fijada con alfileres, marcando líneas guía que siguen las proporciones del cuerpo.')
-            figcaption Fuente: https://tarahilebas.com/moulage// 
+            
 
 
     .row.justify-content-center.align-items-center.mb-4
@@ -230,7 +230,7 @@
         .subti
       .col.ps-lg-0
         .ssu.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
-          h4.mb-0 Metodología – Convenciones
+          h4.mb-0 Metodología – convenciones
 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario3.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-left")
@@ -346,7 +346,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-2 Manual de patronaje. Básico e interpretación de diseños
+              h4.mb-2 Manual de patronaje básico e interpretación de diseños
               p.mb-0 Complemente esta información con las diferentes simbologías, que facilitan los procesos técnicos de patronaje y corte:
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Manual_patronaje_basico_interpretacion_disenos.pdf')" target="_blank")
@@ -391,7 +391,7 @@
           .col-lg-7
             h4.mb-4 Medida de contorno más prominente
             p.mb-lg-0.mb-4 En moda infantil, la medida más relevante para prendas superiores suele ser el contorno de pecho, ya que constituye la referencia central del patrón base. Esta medida puede ser representada mediante convenciones o letras que faciliten el trazado.
-            p.mb-lg-0.mb-4 Ejemplo: P = Contorno de pecho de la talla seleccionada.
+            p.mb-lg-0.mb-4 Ejemplo: P = contorno de pecho de la talla seleccionada.
           .col-lg-5.col-md-8
             img.mb-0(alt="" src="@/assets/curso/tema5/18.png")
         .row.justify-content-center.align-items-center.p-0.p-lg-4
@@ -565,18 +565,12 @@
                 td.left Define la base estructural a partir del contorno de busto y largo de espalda.
               tr
                 td 2
-                td.left
-                  | Escote posterior = B/20 cm
-                  br
-                  | + 2,5 cm.
+                td.left Escote posterior = B/20 cm + 2,5 cm.
                 td.left Marcar horizontal y bajar 1 cm; unir con curva suave.
                 td.left Forma el escote de espalda con proporción ergonómica.
               tr
                 td 3
-                td.left
-                  | Escote delantero = B/20 cm
-                  br
-                  | + 2,5 cm.
+                td.left Escote delantero = B/20 cm + 2,5 cm.
                 td.left Marcar horizontal y bajar 0,5 cm; unir con curva más profunda.
                 td.left Define el escote delantero, más abierto que el posterior.
               tr
@@ -594,25 +588,27 @@
                 td.left
                   | Ancho de hombro con
                   br
-                  | inclinación ±1 cm.
-                td.left Proyectar desde escote hacia afuera: espalda con -1 cm y delantero con +1 cm.
+                  | inclinación ± 1 cm.
+                td.left Proyectar desde escote hacia afuera: espalda con - 1 cm y delantero con + 1 cm.
                 td.left Diferencia anatómica entre hombro de espalda y delantero.
               tr
                 td 6
-                td.left
-                  | Sisa: Espalda = 0,7 cm.
+                td.left 
+                  | Sisa: 
+                  br
+                  | Espalda = 0,7 cm.
                   br
                   | Delantero = 1,5 cm
                 td.left Ajustar curvas desde línea superior hacia el costado.
                 td.left Forma la cavidad de la sisa: menos profunda en espalda, más pronunciada en delantero.
               tr
                 td 7
-                td.left Pinzas: -0,5 cm en espalda y en delantero.
+                td.left Pinzas: - 0,5 cm en espalda y en delantero.
                 td.left Marcar reducciones en el talle (espalda y delantero).
                 td.left Aseguran ajuste y moldeado en prendas superiores.
               tr
                 td 8
-                td.left Márgenes inferiores = +0,5 cm.
+                td.left Márgenes inferiores = + 0,5 cm.
                 td.left Añadir en los extremos inferiores del rectángulo.
                 td.left Se utilizan como margen de costura y dobladillo.
  
@@ -627,7 +623,7 @@
               h4.mb-2 Base superior infantil
               p.mb-0 Se invita a seguir el video con el paso a paso de la construcción del básico superior infantil:
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=jCQosSNNXz0&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA " target="_blank")
+              a.boton.color-acento-botones(href="https://youtu.be/IFVssuNFdEc" target="_blank")
                 span Ir al sitio
                 i.fas.fa-file-video
 
@@ -670,7 +666,9 @@
             tbody
               tr
                 td 1
-                td.left Ancho = circunferencia de brazo/2 + 2,5 Alto = largo de manga.
+                td.left Ancho = circunferencia de brazo/2 + 2,5 
+                  br
+                  | Alto = largo de manga.
                 td.left Trazar el rectángulo base con ancho y alto según medidas.
                 td.left Define la estructura inicial de la manga a partir de las medidas infantiles.
               tr
@@ -686,19 +684,19 @@
               tr
                 td 4
                 td.left
-                  | Subir +1 cm en el centro
+                  | Subir + 1 cm en el centro.
                   br
-                  | Bajar -1 cm en los extremos.
+                  | Bajar - 1 cm en los extremos.
                 td.left Dibujar curva superior de la copa uniendo los puntos con suavidad.
                 td.left Forma la parte superior de la manga; curva más pronunciada en delantero.
               tr
                 td 5
                 td.left En este paso no se aplica fórmula.
-                td.left Desde extremos de la copa, bajar recto hasta la base; ensanchar +1,2 cm a cada lado.
+                td.left Desde extremos de la copa, bajar recto hasta la base; ensanchar + 1,2 cm a cada lado.
                 td.left Define los laterales de la manga y otorga amplitud en el puño.
               tr
                 td 6
-                td.left Curva inferior = +1 cm en el centro.
+                td.left Curva inferior = + 1 cm en el centro.
                 td.left Dibujar curva ascendente en la base del rectángulo.
                 td.left Genera mejor movilidad y caída natural de la manga infantil.
          

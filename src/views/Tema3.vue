@@ -32,7 +32,7 @@
 
     .row.justify-content-center.align-items-center.mb-lg-5.mb-md-4.mb-0(data-aos="fade-right")
       .col-lg-12
-        .titulo-sexto.mb-4(alt='Clasificación de diferentes tipos de vestuario según su ocasión de uso y proporciona ejemplos de prendas para cada de estos. Los universos de vestuario son; formal, informal, deportiva, ejecutiva, y ceremonial.')
+        .titulo-sexto.mb-4(alt='Clasificación de ocasión de uso por universo de vestuario, correspondiendo el protocolario a la gala /formal, multiocasion al casual, Informal al kakiwear, Jeanswear, Sportswear, Activwear, Leisurewear, y finaliza con complementos al Swinwear/Beachwear, Sleepwear, y Underwear.')
           h5 Tabla 1.
           | Clasificación de universos del vestuario por ocasión de uso
         .tabla-a.tab1.mb-2
@@ -142,7 +142,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-2 Gamas de mercado Universos de vestuarios - ocasiones de uso
+              h4.mb-2 Gamas de mercado - universos de vestuarios - ocasiones de uso
               p.mb-0 Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace:
             .col-sm-auto
               a.boton.color-acento-botones(href="https://youtu.be/VsTacEciP3k" target="_blank")
@@ -184,18 +184,19 @@
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12
-        .ap10.p-lg-5.p-md-4.p-0
+        .ap10.p-4
           .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
-            .col-lg-5.mb-lg-0.mb-4
-              .titulo-sexto.mb-4(alt='')
-                h5 Figura 6.
-                | Camiseta
-              .ap11.p-4
-                img(src='@/assets/curso/tema3/7.png', alt='Camiseta infantil de manga corta colgada en un gancho, sostenida por una mano frente a un fondo con textura.')
- 
-            .col-lg-7
-              .tarjeta.tarjeta--azull.p-3
+            .col-lg-6.mb-lg-0.mb-4
+              .tarjeta.tarjeta--azull.p-4
                 SlyderF(columnas="col-lg-12")
+                  .tarjeta.color-acento-botones.p-4
+                    .titulo-sexto.mb-4(alt='')
+                      h5 Figura 6.
+                      | Camiseta
+                    .ap11.p-4
+                      .row.justify-content-center.align-items-stretch.mb-0
+                        .col-lg-12
+                          img(src='@/assets/curso/tema3/7.png', alt='Camiseta infantil de manga corta colgada en un gancho, sostenida por una mano frente a un fondo con textura.')
                   .tarjeta.color-acento-botones.p-4
                     .titulo-sexto.mb-4(alt='')
                       h5 Figura 7.
@@ -203,7 +204,7 @@
                     .ap12.p-3
                       .row.justify-content-center.align-items-stretch.mb-0
                         .col-lg-12
-                          img(src='@/assets/curso/tema3/8.png', alt='Una prenda infantil de corte formal con cuello camisero, abotonadura frontal completa y mangas largas.  La persona adopta una postura erguida frente a un espejo, lo que permite apreciar tanto el frente como el perfil del conjunto. Una prenda infantil de corte formal con cuello camisero, abotonadura frontal completa y mangas largas.  La persona adopta una postura erguida frente a un espejo, lo que permite apreciar tanto el frente como el perfil del conjunto. Una prenda infantil de corte formal con cuello camisero, abotonadura frontal completa y mangas largas.  La persona adopta una postura erguida frente a un espejo, lo que permite apreciar tanto el frente como el perfil del conjunto.')
+                          img(src='@/assets/curso/tema3/8.png', alt='Una prenda infantil de corte formal con cuello camisero, abotonadura frontal completa y mangas largas.  La persona adopta una postura erguida frente a un espejo, lo que permite apreciar tanto el frente como el perfil del conjunto.')
                   .tarjeta.color-acento-botones.p-4
                     .titulo-sexto.mb-4(alt='')
                       h5 Figura 8.
