@@ -31,8 +31,8 @@
 
 
     .row.justify-content-center.align-items-center.mb-lg-5.mb-md-4.mb-0(data-aos="fade-right")
-      .col-lg-12
-        .titulo-sexto.mb-4(alt='Clasificación de ocasión de uso por universo de vestuario, correspondiendo el protocolario a la gala /formal, multiocasion al casual, Informal al kakiwear, Jeanswear, Sportswear, Activwear, Leisurewear, y finaliza con complementos al Swinwear/Beachwear, Sleepwear, y Underwear.')
+      .col-lg-12(alt='Clasificación de diferentes tipos de vestuario según su ocasión de uso y proporciona ejemplos de prendas para cada uno de estos. Los universos de vestuario son; formal, informal, deportivo, ejecutivo y ceremonial.')
+        .titulo-sexto.mb-4
           h5 Tabla 1.
           | Clasificación de universos del vestuario por ocasión de uso
         .tabla-a.tab1.mb-2
