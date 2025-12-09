@@ -59,7 +59,7 @@
 
 
     separador
-    #t_2_1.titulo-segundo.mb-5
+    #t_5_1.titulo-segundo.mb-5
       h2 5.1 Tipos de patronaje y líneas
 
 
@@ -423,7 +423,7 @@
 
 
     separador
-    #t_2_1.titulo-segundo.mb-5
+    #t_5_2.titulo-segundo.mb-5
       h2 5.2 Patrón básico superior infantil
 
 
@@ -630,7 +630,7 @@
 
 
     separador
-    #t_2_1.titulo-segundo.mb-5
+    #t_5_3.titulo-segundo.mb-5
       h2 5.3 Patrón básico de manga
 
 

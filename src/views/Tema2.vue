@@ -29,7 +29,7 @@
         img(src='@/assets/curso/tema2/2.png', alt=' ')
       .col-lg-8
         .ap4.p-4.mb-4
-          p.mb-4.mx-lg-2.mt-lg-1 Las medidas son unidades numéricas empleadas para representar el tamaño de una figura, objeto o parte específica; en el patronaje de prendas de vestir, estos datos se obtienen utilizando la cinta métrica de manera lineal, con el fin de registrar el largo, el ancho y el contorno de las diferentes partes del cuerpo.
+          p.mb-4.mx-lg-2.mt-lg-1 Las medidas corresponden a valores numéricos que permiten cuantificar con precisión las dimensiones, proporciones y características morfológicas de una figura u objeto. En el ámbito del patronaje de prendas de vestir, las medidas constituyen la base técnica para la construcción de patrones y se clasifican según el tipo de dimensión que describen. Su obtención se realiza mediante el uso riguroso de la cinta métrica en sentido lineal, con el propósito de registrar largos, anchos y contornos de las diferentes zonas anatómicas, garantizando exactitud en el ajuste, la funcionalidad y la ergonomía de la prenda. 
           p.mb-0.mb-lg-1.mx-lg-2 Las medidas corporales se toman a partir de los puntos de referencia o anclaje del cuerpo humano, considerando parámetros antropométricos y anatómicos. 
         p.mb-0 Estas deben contemplar los volúmenes y las protuberancias naturales del cuerpo, y se clasifican en tres grandes grupos:
 
@@ -142,8 +142,7 @@
 
 
     .cajon-b.color-primario.p-3.mb-lg-5.mb-4
-      p.mb-0 Las medidas son unidades numéricas empleadas para representar el tamaño de una figura, objeto o parte específica; en el patronaje de prendas de vestir, estos datos se obtienen utilizando la cinta métrica de manera lineal, con el fin de registrar el largo, el ancho y el contorno de las diferentes partes del cuerpo. 
-
+      p.mb-0 Las medidas deducidas son valores derivados a partir del análisis y la interpretación de otras medidas principales, sin requerir una toma directa sobre el cuerpo. En el patronaje, este tipo de medidas se obtiene aplicando fórmulas, fracciones o proporciones estandarizadas que permiten definir elementos estructurales del patrón, como profundidades, inclinaciones, caídas y desahogos, facilitando la precisión y coherencia del diseño final.  
 
 
     .row.justify-content-center.align-items-center.mb-0

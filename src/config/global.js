@@ -56,27 +56,27 @@ export default {
           {
             numero: '2.1',
             titulo: 'Concepto y tipos de medidas',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
           {
             numero: '2.2',
             titulo: 'Proporción versus canon',
-            hash: 't_1_1',
+            hash: 't_2_2',
           },
           {
             numero: '2.3',
             titulo: 'Proporciones corporales',
-            hash: 't_1_1',
+            hash: 't_2_3',
           },
           {
             numero: '2.4',
             titulo: 'Medidas deducidas',
-            hash: 't_1_1',
+            hash: 't_2_4',
           },
           {
             numero: '2.5',
             titulo: 'Normatividad',
-            hash: 't_1_1',
+            hash: 't_2_5',
           },
         ],
       },
@@ -89,12 +89,12 @@ export default {
           {
             numero: '3.1',
             titulo: 'Universos del vestuario',
-            hash: 't_1_1',
+            hash: 't_3_1',
           },
           {
             numero: '3.2',
             titulo: 'Tipología de prendas infantiles para niña',
-            hash: 't_1_1',
+            hash: 't_3_2',
           },
         ],
       },
@@ -107,7 +107,7 @@ export default {
           {
             numero: '4.1',
             titulo: 'Aprovechamiento',
-            hash: 't_1_1',
+            hash: 't_4_1',
           },
         ],
       },
@@ -120,17 +120,17 @@ export default {
           {
             numero: '5.1',
             titulo: 'Tipos de patronaje y líneas',
-            hash: 't_1_1',
+            hash: 't_5_1',
           },
           {
             numero: '5.2',
             titulo: 'Patrón básico superior infantil',
-            hash: 't_1_1',
+            hash: 't_5_2',
           },
           {
             numero: '5.3',
             titulo: 'Patrón básico de manga',
-            hash: 't_1_1',
+            hash: 't_5_3',
           },
         ],
       },
@@ -186,8 +186,7 @@ export default {
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2024). Trazo de manga y cabezas de manga.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=EAl_FBfkYUE&t=2018s&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
+      link: 'https://www.youtube.com/watch?v=flZWxWKNq5s',
     },
   ],
   glosario: [

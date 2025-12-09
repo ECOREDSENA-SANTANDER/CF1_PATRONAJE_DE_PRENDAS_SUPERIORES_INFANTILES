@@ -127,7 +127,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
         .ap4.mb-4.p-4
-          img.img-t.img-a(src='@/assets/curso/tema1/14.png', alt=' ')
+          img.img-t.img-a(src='@/assets/curso/tema1/14.png', alt='Cabeza. Cráneo. Cara. Cuello. Tronco. Tórax. Abdomen. Pelvis. Miembro superior. Brazo. Antebrazo. Mano. Extremidad o miembro inferior. Muslo. Pierna. Pie.')
       .col-lg-6
         p.mb-4 Esta organización no solo responde a criterios anatómicos, sino también a la coherencia en la construcción de patrones, al control de medidas y a la definición de tipologías de vestuario adaptadas a distintos contextos de uso.
         .ap5.mb-5.p-4

@@ -23,7 +23,7 @@
     
 
     separador
-    #t_2_1.titulo-segundo.mb-5
+    #t_3_1.titulo-segundo.mb-5
       h2 3.1 Universos del vestuario
 
     .ap7.p-4.mb-5
@@ -91,7 +91,7 @@
               .col-lg-2
                 img.img-t.d-none.d-lg-block(src="@/assets/curso/tema3/3.png")
               .col-lg-10.ps-lg-0 
-                p.mb-0(data-aos="fade-left") #[b Ocasión de uso:] contempla los posibles escenarios en los que una persona o grupos de personas usan una prenda de acuerdo con el contexto, esto es pactado culturalmente y hace parte de la identidad culturar individual y grupal.
+                p.mb-0(data-aos="fade-left") #[b Ocasión de uso:] contempla los posibles escenarios en los que una persona o grupos de personas usan una prenda de acuerdo con el contexto, esto es pactado culturalmente y hace parte de la identidad cultural individual y grupal.
             
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -152,7 +152,7 @@
 
 
     separador
-    #t_2_1.titulo-segundo.mb-5
+    #t_3_2.titulo-segundo.mb-5
       h2 3.2 Tipología de prendas infantiles para niña
 
 

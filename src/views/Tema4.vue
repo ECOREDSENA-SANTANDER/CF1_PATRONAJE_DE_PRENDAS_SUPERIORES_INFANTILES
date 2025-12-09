@@ -238,7 +238,7 @@
 
 
     separador
-    #t_2_1.titulo-segundo.mb-5
+    #t_4_1.titulo-segundo.mb-5
       h2 4.1 Aprovechamiento
 
 
