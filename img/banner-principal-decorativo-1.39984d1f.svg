@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63.096" height="63.096" viewBox="0 0 63.096 63.096">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403652" data-name="Rectángulo 403652" width="63.096" height="63.096" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1114356" data-name="Grupo 1114356" transform="translate(-837.237 -377.439)">
+    <g id="Grupo_1102671" data-name="Grupo 1102671" transform="translate(837.237 377.439)">
+      <g id="Grupo_1102670" data-name="Grupo 1102670" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Trazado_879337" data-name="Trazado 879337" d="M31.548,0A31.548,31.548,0,1,0,63.1,31.548,31.551,31.551,0,0,0,31.548,0m4.53,38.643a3.154,3.154,0,1,1,3.158,3.15,3.158,3.158,0,0,1-3.158-3.15m3.158-11.075a3.154,3.154,0,1,1,3.15-3.158,3.158,3.158,0,0,1-3.15,3.158M21.413,38.643a3.154,3.154,0,1,1,3.15,3.15,3.156,3.156,0,0,1-3.15-3.15m3.15-11.075a3.154,3.154,0,1,1,3.158-3.158,3.156,3.156,0,0,1-3.158,3.158" transform="translate(0 0)" fill="#ff5299"/>
+        <path id="Trazado_879338" data-name="Trazado 879338" d="M48.918,28.26a3.154,3.154,0,1,1-3.15-3.15,3.156,3.156,0,0,1,3.15,3.15" transform="translate(-6.532 -3.849)"/>
+        <path id="Trazado_879339" data-name="Trazado 879339" d="M48.918,45.068a3.154,3.154,0,1,1-3.15-3.158,3.155,3.155,0,0,1,3.15,3.158" transform="translate(-6.532 -6.425)"/>
+        <path id="Trazado_879340" data-name="Trazado 879340" d="M31.6,28.26a3.154,3.154,0,1,1-3.158-3.15A3.158,3.158,0,0,1,31.6,28.26" transform="translate(-3.877 -3.849)"/>
+        <path id="Trazado_879341" data-name="Trazado 879341" d="M31.6,45.068A3.154,3.154,0,1,1,28.44,41.91,3.156,3.156,0,0,1,31.6,45.068" transform="translate(-3.877 -6.425)"/>
+        <path id="Trazado_879342" data-name="Trazado 879342" d="M32.781,8.36A24.787,24.787,0,1,0,57.564,33.151,24.792,24.792,0,0,0,32.781,8.36Z" transform="translate(-1.225 -1.282)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
